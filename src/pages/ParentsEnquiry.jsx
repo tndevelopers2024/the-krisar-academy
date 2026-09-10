@@ -261,7 +261,7 @@ const ParentsEnquiry = () => {
                                 <button 
                                     type="submit" 
                                     disabled={isSubmitting}
-                                    className="w-full flex items-center justify-center gap-2 py-3 px-6 text-base bg-yellow-400 hover:bg-yellow-500 text-[#0B1221] font-bold text-base rounded-xl transition-all hover:scale-[1.02] active:scale-[0.98] shadow-[0_4px_24px_rgba(250,204,21,0.2)] disabled:opacity-70 disabled:hover:scale-100 disabled:cursor-not-allowed"
+                                    className="w-full flex items-center justify-center gap-2 py-3 px-6 bg-yellow-400 hover:bg-yellow-500 text-[#0B1221] font-bold text-base rounded-xl transition-all hover:scale-[1.02] active:scale-[0.98] shadow-[0_4px_24px_rgba(250,204,21,0.2)] disabled:opacity-70 disabled:hover:scale-100 disabled:cursor-not-allowed"
                                 >
                                     {isSubmitting ? 'Submitting...' : 'Complete Enquiry'}
                                     {!isSubmitting && <ChevronRight size={22} className="opacity-80" />}

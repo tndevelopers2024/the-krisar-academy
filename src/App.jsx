@@ -24,6 +24,7 @@ import WhatsAppButton from './components/common/WhatsAppButton'
 import CallButton from './components/common/CallButton'
 import ScrollToTop from './components/common/ScrollToTop'
 import PageTransition from './components/common/PageTransition'
+import AdmissionPopup from './components/ui/AdmissionPopup'
 
 function App() {
   const location = useLocation();
@@ -53,6 +54,7 @@ function App() {
         </Routes>
       </AnimatePresence>
       <Footer />
+      <AdmissionPopup />
       <WhatsAppButton />
       <CallButton />
       <ScrollToTop />
