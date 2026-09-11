@@ -74,7 +74,7 @@ const AdmissionPopup = () => {
               {/* Main Headline */}
               <h2 className="text-[22px] leading-[1.1] sm:text-3xl md:text-5xl font-black uppercase mb-3 md:mb-4 tracking-tight text-white">
                 <span className="text-transparent bg-clip-text bg-linear-to-r from-red-400 to-red-600">Admissions</span> <br className="sm:hidden" />
-                <span className="text-transparent bg-clip-text bg-linear-to-r from-yellow-300 to-yellow-600">Closing Soon</span>
+                <span className="text-transparent bg-clip-text bg-linear-to-r from-yellow-300 to-yellow-600">Open for Vijayadashami</span>
               </h2>
 
               {/* Session Badge */}
@@ -108,18 +108,14 @@ const AdmissionPopup = () => {
               </div>
 
               {/* CTA Section */}
-              <p className="text-gray-300 mb-4 sm:mb-5 font-medium text-xs sm:text-sm md:text-lg">
-                Tuition starts at <strong className="text-yellow-400">[Contact for Details]</strong>
-              </p>
-              
-              <Link
-                to="/admission-form"
+              <a
+                href="tel:+917540088387"
                 onClick={handleClose}
                 className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 md:px-8 md:py-3.5 text-sm sm:text-base md:text-lg bg-yellow-400 hover:bg-yellow-500 text-[#0B1221] font-bold rounded-xl transition-all hover:scale-[1.02] active:scale-[0.98] shadow-[0_4px_24px_rgba(250,204,21,0.2)] shrink-0"
               >
-                Schedule a Virtual Tour Today
+                Schedule a Call Today
                 <ChevronRight size={18} className="sm:w-5 sm:h-5 md:w-6 md:h-6 opacity-80" />
-              </Link>
+              </a>
             </div>
           </motion.div>
         </div>
