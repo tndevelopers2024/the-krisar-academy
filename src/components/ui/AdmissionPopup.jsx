@@ -68,18 +68,18 @@ const AdmissionPopup = () => {
 
               {/* Header Text */}
               <p className="text-[10px] sm:text-xs md:text-sm font-semibold tracking-widest text-gray-400 uppercase mb-1 md:mb-2">
-                The Krisar Academy Family Takes Pride In
+                The Krisar Academy Announces
               </p>
 
               {/* Main Headline */}
               <h2 className="text-[22px] leading-[1.1] sm:text-3xl md:text-5xl font-black uppercase mb-3 md:mb-4 tracking-tight text-white">
                 <span className="text-transparent bg-clip-text bg-linear-to-r from-red-400 to-red-600">Admissions</span> <br className="sm:hidden" />
-                <span className="text-transparent bg-clip-text bg-linear-to-r from-yellow-300 to-yellow-600">Open for Vijayadashami</span>
+                <span className="text-transparent bg-clip-text bg-linear-to-r from-yellow-300 to-yellow-600">Open For Vijayadashami</span>
               </h2>
 
               {/* Session Badge */}
               <div className="bg-white/10 border border-white/20 text-yellow-400 font-bold py-1 px-4 sm:py-1.5 sm:px-6 rounded-full mb-4 md:mb-6 uppercase tracking-wider text-[11px] sm:text-sm backdrop-blur-md shadow-inner shrink-0">
-                Session 2026-27
+                Academy year 2026-27
               </div>
 
               {/* Features Tags */}
