@@ -21,9 +21,9 @@ const Home = () => {
   return (
     <div>
       <SEO
-        title="Best CBSE Schools in Vellore & Ranipet | Krisar Academy"
-        description="Krisar Academy is among the leading CBSE schools in Vellore and Ranipet, offering quality education from Pre-KG to Grade 11 with modern learning and holistic growth."
-        keywords="Krisar Academy, CBSE School, Best School in Arani, Holistic Education, Top Schools Vellore, Ranipet Schools"
+        title="Krisar Academy | Best CBSE School in Ranipet"
+        description="Looking for a CBSE school near Ranipet or Vellore? Krisar Academy in Arcot offers quality education from Pre-KG to Grade 12. Enquire today!"
+        keywords="Krisar Academy, CBSE School, Best School in Ranipet, Best CBSE School in Arcot, Vellore CBSE School, Holistic Education"
       />
       <Banner />
       <Strip />
