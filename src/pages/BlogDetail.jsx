@@ -27,8 +27,8 @@ const BlogDetail = () => {
     return (
         <div className="min-h-screen bg-[#0B1221] text-white">
             <SEO
-                title={blog.title}
-                description={blog.description}
+                title={blog.metaTitle || blog.title}
+                description={blog.metaDescription || blog.description}
                 image={blog.image}
             />
             {/* Using Page Header style but maybe simpler or same */}

@@ -27,6 +27,7 @@ import blog18 from '../assets/images/academics/academic-approach.avif';
 import blog18Inner from '../assets/images/academics/beyond-academics.avif';
 import blog19 from '../assets/images/academics/kindergarten.avif';
 import blog20 from '../assets/images/gallery/krisar-img-085.jpeg';
+import blog21 from '../assets/images/gallery/krisar-img-183.jpeg';
 
 // Gallery Images for Blog
 import gallery1 from '../assets/images/gallery/krisar-img-076.jpeg';
@@ -3393,6 +3394,174 @@ export const blogData = [
                 </section>
 
                 <p className="text-center text-white/40 text-sm mt-8 italic">The Krisar Academy | CBSE Affiliated | Affiliation No. 1931107 | Est. 2018 | Pre-KG to Grade 12 | Paradarami Village, Ranipet District, Tamil Nadu</p>
+            </>
+        )
+    },
+    {
+        id: 21,
+        slug: "what-makes-a-good-cbse-school",
+        title: "What Makes a Good CBSE School? 7 Things Parents Should Look For",
+        metaTitle: "What Makes a Good CBSE School? 7 Things to Check",
+        metaDescription: "Choosing a CBSE school? Discover 7 things parents should check, from teaching quality and facilities to student safety and transport.",
+        date: "October 28, 2026",
+        image: blog21,
+        category: "Education",
+        icon: "BookOpen",
+        description: "Choosing a CBSE school? Discover 7 things parents should check, from teaching quality and facilities to student safety and transport.",
+        content: (
+            <>
+                <p className="mb-6 text-lg leading-relaxed text-white">
+                    Choosing a school is an important decision for every parent. A good school does more than help children score marks. It should also help them understand lessons, develop good habits, build confidence and enjoy learning.
+                </p>
+                <p className="mb-8 text-lg leading-relaxed text-white">
+                    With so many schools available, parents may find it difficult to decide which one is right for their child. If you are looking at <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors">Best CBSE Schools in Arcot</Link>, Ranipet or Vellore, here are seven important things to consider before making your choice.
+                </p>
+
+                <div className="space-y-8 mb-12">
+                    <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                        <h3 className="text-2xl font-bold mb-4 text-brand-secondary">1. Check the Quality of Teaching</h3>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Children learn better when teachers explain lessons clearly and encourage them to ask questions.
+                        </p>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Before choosing a school, find out how teachers help students understand difficult topics. A good learning environment should allow children to clear their doubts without feeling uncomfortable.
+                        </p>
+                        <p className="text-lg leading-relaxed text-white">
+                            Instead of looking only at exam results, understand how the school supports students throughout the academic year.
+                        </p>
+                    </div>
+
+                    <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                        <h3 className="text-2xl font-bold mb-4 text-brand-secondary">2. Look Beyond Marks and Rankings</h3>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Good marks are important, but they are not the only sign of a child's progress.
+                        </p>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Children should also learn how to think independently, solve problems and apply what they learn in everyday life.
+                        </p>
+                        <p className="text-lg leading-relaxed text-white">
+                            Ask how the school balances classroom learning with activities that improve communication, creativity and critical thinking. These skills help children grow beyond textbooks.
+                        </p>
+                    </div>
+
+                    <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                        <h3 className="text-2xl font-bold mb-4 text-brand-secondary">3. Explore the School's Facilities</h3>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            A school's facilities should support the way children learn and grow.
+                        </p>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            During a school visit, check whether the classrooms are comfortable and suitable for learning. Depending on the school's facilities, you can also look at its library, science and computer labs, sports areas and other learning spaces.
+                        </p>
+                        <p className="text-lg leading-relaxed text-white">
+                            The important thing is not how many <Link to="/facilities" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors">facilities</Link> a school has, but how well students get to use them.
+                        </p>
+                    </div>
+
+                    <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                        <h3 className="text-2xl font-bold mb-4 text-brand-secondary">4. Understand How the School Supports Students</h3>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Every child learns at a different pace. Some children understand a topic quickly, while others may need more time and guidance.
+                        </p>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Ask how teachers support students who find certain subjects difficult. It is also worth understanding how the school communicates with parents about a child's progress.
+                        </p>
+                        <p className="text-lg leading-relaxed text-white">
+                            Regular feedback and individual attention can help parents and teachers work together to support the child.
+                        </p>
+                    </div>
+
+                    <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                        <h3 className="text-2xl font-bold mb-4 text-brand-secondary">5. Give Importance to Sports and Other Activities</h3>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Learning does not happen only inside a classroom.
+                        </p>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Sports, arts, music, competitions and other extracurricular activities give children opportunities to explore their interests. They can also help children develop teamwork, discipline and confidence.
+                        </p>
+                        <p className="text-lg leading-relaxed text-white">
+                            When comparing schools, check whether students have opportunities to take part in activities alongside their regular studies.
+                        </p>
+                    </div>
+
+                    <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                        <h3 className="text-2xl font-bold mb-4 text-brand-secondary">6. Check Safety and Transportation</h3>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            A child's safety should always be a priority when selecting a school.
+                        </p>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Parents should ask about visitor entry procedures, student supervision and the school's arrangements for handling emergencies. If school transport is required, check the bus routes, pickup and drop-off arrangements, and safety measures followed during travel.
+                        </p>
+                        <p className="text-lg leading-relaxed text-white">
+                            For families travelling from nearby towns, travel time is also worth considering. A manageable daily journey can make the school routine easier for both children and parents.
+                        </p>
+                    </div>
+
+                    <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                        <h3 className="text-2xl font-bold mb-4 text-brand-secondary">7. Consider the School's Location and Overall Environment</h3>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            The right school should suit your child's learning needs as well as your family's daily routine.
+                        </p>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Look at the distance from home, transport availability, school timings and the overall learning environment. If possible, visit the campus and speak with the school team before making a decision.
+                        </p>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Parents searching for the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors">best CBSE schools in Vellore</Link> can also explore schools in nearby areas such as Arcot and Ranipet, depending on their travel needs and preferences.
+                        </p>
+                        <p className="text-lg leading-relaxed text-white">
+                            Compare the options carefully rather than making a decision based only on advertisements or recommendations.
+                        </p>
+                    </div>
+                </div>
+
+                <section className="pt-8 border-t border-white/10 mb-12">
+                    <h3 className="text-2xl font-bold mb-8 text-white">Frequently Asked Questions</h3>
+                    <div className="space-y-6">
+                        {[
+                            {
+                                q: "What should parents look for when choosing a CBSE school?",
+                                a: "Parents should consider teaching quality, student support, facilities, extracurricular activities, safety, transport and the overall learning environment."
+                            },
+                            {
+                                q: "Are school facilities more important than teaching quality?",
+                                a: "Both matter, but facilities are useful only when they support learning. Clear teaching, student guidance and the effective use of learning resources are important factors to consider."
+                            },
+                            {
+                                q: "Should parents visit a school before admission?",
+                                a: "Yes, if possible. A campus visit helps parents understand the facilities, learning environment, transport arrangements and other details that may not be clear from a website alone."
+                            },
+                            {
+                                q: "How can parents compare CBSE schools in Vellore and nearby areas?",
+                                a: "Make a shortlist based on your child's needs, visit the schools, ask about teaching methods and facilities, and compare the practical details such as fees, safety and travel time before deciding."
+                            }
+                        ].map((faq, idx) => (
+                            <div key={idx} className="p-6 bg-white/5 rounded-2xl border border-white/10">
+                                <h5 className="font-bold text-brand-secondary mb-3 text-lg">{faq.q}</h5>
+                                <p className="text-white/80 leading-relaxed font-light">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                <section className="bg-brand-secondary p-10 md:p-12 rounded-[2.5rem] text-brand-primary text-center my-12 shadow-xl">
+                    <h3 className="text-3xl font-bold mb-6">Final Thoughts</h3>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        Choosing a school takes time, and there is no single answer that suits every child. What works well for one family may not be the right choice for another.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-6 max-w-3xl mx-auto">
+                        Focus on where your child can learn comfortably, receive the right support and develop useful skills for the future. A little research and a school visit can help you make a more confident decision.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
+                        Looking for a CBSE school near Ranipet or Vellore? Explore Krisar Academy in Arcot to learn more about its <Link to="/uat-academics" className="underline font-bold text-brand-primary hover:text-black transition-colors">academic programmes</Link>, facilities and learning environment. Contact the school team to discuss <Link to="/admissions" className="underline font-bold text-brand-primary hover:text-black transition-colors">CBSE admission 2026</Link> details and find out whether it is the right fit for your child.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
+                            Enquire for Admissions
+                        </Link>
+                        <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
+                            <span>📞</span> +91 75400 88387
+                        </a>
+                    </div>
+                </section>
             </>
         )
     }
