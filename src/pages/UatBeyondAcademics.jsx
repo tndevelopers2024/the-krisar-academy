@@ -32,9 +32,9 @@ const UatBeyondAcademics = () => {
     return (
         <div className="bg-[url('./assets/images/home/news-updates/bg.avif')] bg-cover bg-center min-h-screen">
             <SEO
-                title="Beyond Academics Activities | Krisar Academy Vellore"
-                description="Discover beyond academics programs at Krisar Academy, one of the top CBSE schools in Vellore and Ranipet offering sports, arts and skill development."
-                keywords="Co-curricular Activities, Sports Education, Student Wellness, Holisitc Development, Arts and Culture"
+                title="Beyond Academics | Krisar Academy, Arcot"
+                description="Explore sports, extracurricular activities, special education, student counselling and holistic development at Krisar Academy, a CBSE school in Arcot."
+                keywords="Beyond Academics, Extracurricular Activities, Sports Education, Special Education, Student Counselling, Holistic Development, Krisar Academy Arcot"
             />
             <PageHero
                 title="Beyond Academics"

@@ -157,9 +157,9 @@ const Academics = () => {
     return (
         <div className="bg-brand-primary min-h-screen">
             <SEO
-                title="Academics | CBSE Schools in Vellore & Ranipet | Krisar Academy"
-                description="Explore academics at Krisar Academy, one of the leading CBSE schools in Vellore and Ranipet offering a strong curriculum, modern learning and holistic development."
-                keywords="CBSE Curriculum, Primary Education, Middle School, Senior Secondary, Holistic Learning"
+                title="Krisar Academy Academics | CBSE School in Arcot"
+                description="Explore academics at Krisar Academy, a CBSE school in Arcot offering holistic learning, kindergarten, primary and secondary education, and life skills."
+                keywords="Krisar Academy Academics, CBSE School in Arcot, Holistic Learning, Kindergarten, Primary Education, Secondary Education, Life Skills"
             />
             <PageHero
                 title="Academic Excellence"

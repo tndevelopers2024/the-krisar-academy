@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from 'react-router-dom'
+import { Routes, Route, useLocation, Navigate } from 'react-router-dom'
 import { AnimatePresence } from 'framer-motion'
 import './App.css'
 import './assets/styles/fonts.css'
@@ -36,7 +36,8 @@ function App() {
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<PageTransition><Home /></PageTransition>} />
-          <Route path="/projects" element={<PageTransition><Projects /></PageTransition>} />
+          <Route path="/about-us" element={<PageTransition><Projects /></PageTransition>} />
+          <Route path="/projects" element={<Navigate to="/about-us" replace />} />
           <Route path="/facilities" element={<PageTransition><Facilities /></PageTransition>} />
           <Route path="/uat-academics" element={<PageTransition><UatAcademics /></PageTransition>} />
           <Route path="/uat-beyond-academics" element={<PageTransition><UatBeyondAcademics /></PageTransition>} />

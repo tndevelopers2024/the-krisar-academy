@@ -38,7 +38,7 @@ const slides = [
             desc: "The school prepares students for the future through leadership and growth."
         },
         buttonText: "Learn More",
-        buttonLink: "/projects"
+        buttonLink: "/about-us"
     },
     {
         id: 2,

@@ -37,9 +37,9 @@ const Projects = () => {
     return (
         <div className="bg-brand-primary min-h-screen text-white">
             <SEO
-                title="School Projects & Achievements | Krisar Academy Vellore"
-                description="Explore projects and achievements of Krisar Academy, one of the emerging CBSE schools in Vellore and Ranipet focused on innovation and student growth."
-                keywords="About Krisar Academy, School History, Educational Vision, Best Faclities Arani, School Mission"
+                title="About Krisar Academy | CBSE School in Arcot"
+                description="Discover Krisar Academy, a CBSE school in Arcot near Ranipet and Vellore, offering Pre-KG to Grade 12 education with modern learning facilities."
+                keywords="About Krisar Academy, CBSE School Arcot, School near Ranipet, School near Vellore, Educational Vision, Best Facilities Arcot"
             />
             {/* 1. Hero Section */}
             <PageHero

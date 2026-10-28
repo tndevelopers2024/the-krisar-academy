@@ -9,7 +9,7 @@ import { Menu, X, ChevronRight } from 'lucide-react';
 // place cannot go missing from the other.
 const NAV_LINKS = [
   { to: '/', label: 'HOME' },
-  { to: '/projects', label: 'ABOUT US' },
+  { to: '/about-us', label: 'ABOUT US' },
   { to: '/facilities', label: 'FACILITIES' },
   { to: '/uat-academics', label: 'ACADEMICS' },
   { to: '/uat-beyond-academics', label: 'BEYOND ACADEMICS' },

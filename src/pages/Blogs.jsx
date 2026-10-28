@@ -10,9 +10,9 @@ const Blogs = () => {
     return (
         <div className="min-h-screen bg-[#0B1221] text-white">
             <SEO
-                title="School Blogs & Updates | CBSE Schools in Vellore | Krisar"
-                description="Read blogs, achievements, and updates from Krisar Academy, one of the trusted CBSE schools in Vellore and Ranipet sharing student success stories and events."
-                keywords="School Blogs, Educational Updates, Student Achievements, School News Vellore, Krisar Academy News"
+                title="Krisar Academy Blog | Education Tips & Insights"
+                description="Discover practical education tips, study techniques, parenting insights and learning resources to help students learn better and parents support their children."
+                keywords="Krisar Academy Blog, Education Tips, Study Techniques, Parenting Insights, Learning Resources, School Education"
             />
             <PageHero
                 title="Blogs & Updates"
