@@ -1,4 +1,4 @@
-import { Trophy, BookOpen } from 'lucide-react';
+import { Trophy, BookOpen, CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 // Optimized Blog Images
@@ -28,6 +28,11 @@ import blog18Inner from '../assets/images/academics/beyond-academics.avif';
 import blog19 from '../assets/images/academics/kindergarten.avif';
 import blog20 from '../assets/images/gallery/krisar-img-085.jpeg';
 import blog21 from '../assets/images/gallery/krisar-img-183.jpeg';
+import blog23 from '../assets/images/gallery/krisar-img-001.jpeg';
+import blog24 from '../assets/images/academics/beyond-academics.avif';
+import blog25 from '../assets/images/facilities/modern-library.png';
+import blog26 from '../assets/images/facilities/transport.png';
+import blog26Inner from '../assets/images/facilities/medical-facilities.png';
 
 // Gallery Images for Blog
 import gallery1 from '../assets/images/gallery/krisar-img-076.jpeg';
@@ -3556,6 +3561,992 @@ export const blogData = [
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
                             Enquire for Admissions
+                        </Link>
+                        <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
+                            <span>📞</span> +91 75400 88387
+                        </a>
+                    </div>
+                </section>
+            </>
+        )
+    },
+    {
+        id: 22,
+        slug: "right-age-to-start-lkg",
+        title: "LKG Admission: When Is Your Child Ready to Begin School?",
+        metaTitle: "What Is the Right Age to Start LKG? A Parent’s Guide",
+        metaDescription: "Find out the right age for LKG admission in Tamil Nadu, age criteria, school readiness signs, documents required for admission and what parents should check before choosing a school for their child.",
+        date: "October 31, 2026",
+        image: blog19,
+        category: "Education",
+        icon: "BookOpen",
+        description: "Find out the right age for LKG admission in Tamil Nadu, age criteria, school readiness signs, documents required for admission and what parents should check before choosing a school for their child.",
+        content: (
+            <>
+                <p className="mb-6 text-xl font-medium leading-relaxed text-brand-secondary">
+                    Starting formal education is a big step in a young child's life.
+                </p>
+                <p className="mb-6 text-lg leading-relaxed text-white">
+                    Parents often have questions about the suitable age for admission, the skills children need before joining school, and the documents required during enrolment.
+                </p>
+                <p className="mb-10 text-lg leading-relaxed text-white">
+                    Before applying, it is useful to check the school's age requirements, understand your child's developmental needs, and learn about the admission procedure.
+                </p>
+
+                {/* Section 1: At What Age Can Children Join LKG */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">At What Age Can Children Join LKG?</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        The right age for LKG admission depends on the school's admission policy and the applicable age criteria for that academic year.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        In many schools, children enter LKG at <strong>3.5 to 4.5 years old</strong>, depending on the admission rules followed by the school. In Tamil Nadu, parents should check the school's admission rules to confirm the required age and the date used to determine their child's eligibility.
+                    </p>
+                    <div className="bg-white/5 p-5 rounded-2xl border-l-4 border-brand-secondary">
+                        <p className="text-base text-gray-300">
+                            <strong>Parent Tip:</strong> Parents looking for LKG admission age criteria in Tamil Nadu should check the child's date of birth against the school's official admission guidelines. Do not rely only on the child's current age, as the cut-off date can affect eligibility.
+                        </p>
+                    </div>
+                </div>
+
+                {/* Section 2: What is the LKG Admission Age Requirement for 2027–28? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">What is the LKG Admission Age Requirement for 2027–28?</h3>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        Parents preparing for the next academic year may search for <em>LKG admission age criteria 2027–28</em> or <em>LKG admission age limit</em> to understand when their child can apply.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        The required age may vary according to the school's policy and the applicable education guidelines. Before submitting an application, confirm:
+                    </p>
+                    <ul className="space-y-3 mb-6">
+                        {[
+                            "The minimum age required for LKG.",
+                            "The date on which the child's age is calculated.",
+                            "The eligible date-of-birth range.",
+                            "Whether the school has any additional admission requirements."
+                        ].map((item, idx) => (
+                            <li key={idx} className="flex items-start gap-3 text-lg text-white">
+                                <CheckCircle2 className="w-6 h-6 text-brand-secondary shrink-0 mt-0.5" />
+                                <span>{item}</span>
+                            </li>
+                        ))}
+                    </ul>
+                    <p className="text-lg leading-relaxed text-white">
+                        If you are considering a <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Top CBSE School in Arcot</Link>, contact the school to confirm the LKG age eligibility and admission process for the relevant academic year.
+                    </p>
+                </div>
+
+                {/* Section 3: Is Your Child Prepared to Begin LKG? */}
+                <div className="mb-12">
+                    <h3 className="text-3xl font-bold mb-4 text-white">Is Your Child Prepared to Begin LKG?</h3>
+                    <p className="mb-8 text-lg leading-relaxed text-white">
+                        Apart from meeting the age requirement, it is worth looking at how your child handles everyday activities and interacts with others. Children develop at different speeds, so their readiness for school should be considered individually.
+                    </p>
+                    <p className="mb-6 text-lg font-medium text-brand-secondary">
+                        Here are a few things parents can observe:
+                    </p>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                        <div className="p-6 bg-white/5 rounded-2xl border border-white/10 flex flex-col justify-between">
+                            <div>
+                                <h4 className="text-xl font-bold mb-3 text-brand-secondary">1. Basic Communication</h4>
+                                <p className="text-base leading-relaxed text-white/90">
+                                    Can your child express simple needs, communicate with familiar adults and understand basic instructions? These skills can help children settle into a classroom routine.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="p-6 bg-white/5 rounded-2xl border border-white/10 flex flex-col justify-between">
+                            <div>
+                                <h4 className="text-xl font-bold mb-3 text-brand-secondary">2. Interest in Learning</h4>
+                                <p className="text-base leading-relaxed text-white/90">
+                                    Children may show school readiness by asking questions, listening to stories, recognising familiar objects or enjoying simple learning activities.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="p-6 bg-white/5 rounded-2xl border border-white/10 flex flex-col justify-between">
+                            <div>
+                                <h4 className="text-xl font-bold mb-3 text-brand-secondary">3. Social Interaction</h4>
+                                <p className="text-base leading-relaxed text-white/90">
+                                    Interacting with other children, learning to share and getting used to unfamiliar people can help children feel more comfortable in a school setting.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className="p-6 bg-white/5 rounded-2xl border border-white/10 flex flex-col justify-between">
+                            <div>
+                                <h4 className="text-xl font-bold mb-3 text-brand-secondary">4. Basic Independence</h4>
+                                <p className="text-base leading-relaxed text-white/90">
+                                    Children can start learning to do everyday tasks on their own, like eating independently and asking for help when they need it. They do not need to master every skill before starting school.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="p-6 bg-white/5 rounded-2xl border border-white/10 text-center">
+                        <p className="text-lg leading-relaxed text-white">
+                            Parents should remember that school readiness for LKG is not about making a child perfect before admission. Parents and teachers can support a child's growth by working together and understanding their individual needs.
+                        </p>
+                    </div>
+                </div>
+
+                {/* Section 4: What Documents Are Required for LKG Admission? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">What Documents Are Required for LKG Admission?</h3>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        The list of documents needed for LKG admission can vary from one school to another. Commonly requested documents include:
+                    </p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                        {[
+                            "Child's birth certificate.",
+                            "Passport-size photographs.",
+                            "Parent or guardian identification.",
+                            "Address proof.",
+                            "Any additional documents specified by the school."
+                        ].map((doc, idx) => (
+                            <div key={idx} className="flex items-center gap-3 p-4 bg-white/5 rounded-xl border border-white/5">
+                                <CheckCircle2 className="w-5 h-5 text-brand-secondary shrink-0" />
+                                <span className="text-white text-base">{doc}</span>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-lg leading-relaxed text-white">
+                        For <Link to="/admissions" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">LKG admission in CBSE schools</Link>, check the school's admission notice for the complete document list, application dates and submission procedure.
+                    </p>
+                </div>
+
+                {/* Section 5: How Should Parents Choose the Right School? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">How Should Parents Choose the Right School?</h3>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        Choosing a school involves more than checking admission eligibility. When choosing a school, look at how children are taught, the facilities available, the school atmosphere and how easy it is for your child to travel there every day.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        If you are comparing schools, ask about:
+                    </p>
+                    <ul className="space-y-3 mb-6">
+                        {[
+                            "How teachers help children adjust to school.",
+                            "Classroom activities for early learners.",
+                            "Student safety and supervision.",
+                            "Transport availability and travel time.",
+                            "Communication between teachers and parents."
+                        ].map((item, idx) => (
+                            <li key={idx} className="flex items-start gap-3 text-lg text-white">
+                                <CheckCircle2 className="w-6 h-6 text-brand-secondary shrink-0 mt-0.5" />
+                                <span>{item}</span>
+                            </li>
+                        ))}
+                    </ul>
+                    <p className="text-lg leading-relaxed text-white">
+                        Families searching for a <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Top CBSE School in Arcot</Link> can compare these factors and visit the campus before making a decision. Visiting the school gives parents a chance to see the campus, learn about the classroom experience and discuss any questions they have about their child's admission.
+                    </p>
+                </div>
+
+                {/* Frequently Asked Questions */}
+                <section className="pt-8 border-t border-white/10 mb-12">
+                    <h3 className="text-2xl font-bold mb-8 text-white">Frequently Asked Questions</h3>
+                    <div className="space-y-6">
+                        {[
+                            {
+                                q: "Can a 3.5 year old child join LKG?",
+                                a: "Admission eligibility depends on the school's age requirements and the cut-off date it follows. Parents should check with the school to confirm whether their child qualifies for LKG admission."
+                            },
+                            {
+                                q: "Is 4 the right age to start LKG?",
+                                a: "Yes, 4 years old is generally considered the appropriate age to start LKG (Lower Kindergarten) in India."
+                            },
+                            {
+                                q: "What Will Children Learn in LKG Compared to Nursery?",
+                                a: "Nursery introduces children to basic concepts through play, rhymes and simple activities. In LKG, children usually begin learning letter sounds, early reading and writing, number recognition and simple maths. The exact learning activities may vary by school."
+                            },
+                            {
+                                q: "What Can Parents Do to Get Their Child Ready for LKG?",
+                                a: "Parents can help children get familiar with school life by practising daily routines, reading stories together, introducing simple learning activities and encouraging play with other children. These small steps can make the transition to school feel easier."
+                            }
+                        ].map((faq, idx) => (
+                            <div key={idx} className="p-6 bg-white/5 rounded-2xl border border-white/10">
+                                <h5 className="font-bold text-brand-secondary mb-3 text-lg">{faq.q}</h5>
+                                <p className="text-white/80 leading-relaxed font-light">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                {/* Final Thoughts & Call to Action */}
+                <section className="bg-brand-secondary p-10 md:p-12 rounded-[2.5rem] text-brand-primary text-center my-12 shadow-xl">
+                    <h3 className="text-3xl font-bold mb-6">Final Thoughts</h3>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        Understanding the LKG admission age criteria and keeping the required documents ready can make the admission process easier for parents. Before applying, check your child's eligibility and the school's admission requirements.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
+                        If you are considering a <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">Top CBSE School in Arcot</Link>, explore the school's learning environment, facilities and approach to early education. Choosing the right school can help your child begin their learning journey with confidence and comfort.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
+                            Apply for LKG Admission
+                        </Link>
+                        <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
+                            <span>📞</span> +91 75400 88387
+                        </a>
+                    </div>
+                </section>
+            </>
+        )
+    },
+    {
+        id: 23,
+        slug: "cbse-school-admission-ranipet",
+        title: "CBSE School Admission in Ranipet: What Parents Should Know Before Applying",
+        metaTitle: "CBSE School Admission in Ranipet | Parent's Guide",
+        metaDescription: "Explore CBSE school admission in Ranipet, including eligibility, required documents, curriculum, facilities and what parents should check before choosing a school.",
+        date: "October 31, 2026",
+        image: blog23,
+        category: "Education",
+        icon: "BookOpen",
+        description: "Explore CBSE school admission in Ranipet, including eligibility, required documents, curriculum, facilities and what parents should check before choosing a school.",
+        content: (
+            <>
+                <p className="mb-6 text-xl font-medium leading-relaxed text-brand-secondary">
+                    Choosing a school is an important decision for every family.
+                </p>
+                <p className="mb-6 text-lg leading-relaxed text-white">
+                    Parents want to know whether the school offers the right learning environment, supports children's development and meets their expectations.
+                </p>
+                <p className="mb-10 text-lg leading-relaxed text-white">
+                    If you are exploring <strong>CBSE school admission in Ranipet</strong>, understanding the admission process and knowing what to check before applying can make your search easier.
+                </p>
+
+                {/* 1. Understand the Admission Requirements */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">1. Understand the Admission Requirements</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Before applying, check the school's admission requirements for the class your child is joining. The eligibility criteria may differ for kindergarten, primary and higher classes.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Parents searching for CBSE school admission age criteria should confirm the age requirements and applicable cut-off dates with the school.
+                    </p>
+                    <p className="mb-4 text-lg font-medium text-white">
+                        It is also useful to ask about:
+                    </p>
+                    <ul className="space-y-3">
+                        {[
+                            "Admission dates and application deadlines.",
+                            "Age eligibility for each class.",
+                            "Availability of seats.",
+                            "Admission procedure and selection process."
+                        ].map((item, idx) => (
+                            <li key={idx} className="flex items-start gap-3 text-lg text-white">
+                                <CheckCircle2 className="w-6 h-6 text-brand-secondary shrink-0 mt-0.5" />
+                                <span>{item}</span>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
+                {/* 2. Keep the Required Documents Ready */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">2. Keep the Required Documents Ready</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Having the necessary documents ready can make the application process smoother.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Most schools may ask parents to submit:
+                    </p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                        {[
+                            "Child's birth certificate.",
+                            "Recent passport-size photographs.",
+                            "Previous academic records, if applicable.",
+                            "Transfer Certificate (for students changing schools, where required).",
+                            "Parent or guardian identification and address proof."
+                        ].map((doc, idx) => (
+                            <div key={idx} className="flex items-center gap-3 p-4 bg-white/5 rounded-xl border border-white/5">
+                                <CheckCircle2 className="w-5 h-5 text-brand-secondary shrink-0" />
+                                <span className="text-white text-base">{doc}</span>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-lg leading-relaxed text-white">
+                        The exact document list can vary. Always check the school's admission instructions before submitting your application. Explore our <Link to="/admissions" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">admissions guidelines</Link> for detailed submission procedures.
+                    </p>
+                </div>
+
+                {/* 3. Understand the CBSE Learning Approach */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">3. Understand the CBSE Learning Approach</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Parents often search for CBSE syllabus and curriculum details before selecting a school.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        CBSE education covers different subjects and encourages students to develop their understanding through classroom learning, activities and assessments.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        When comparing schools, ask how lessons are taught, how teachers support students who need extra attention and how learning progress is communicated to parents.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Understanding the teaching approach can help you decide whether the school suits your child's learning needs. Learn more about our <Link to="/uat-academics" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">academic approach</Link> at Krisar Academy.
+                    </p>
+                </div>
+
+                {/* 4. Check the Facilities Available for Students */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">4. Check the Facilities Available for Students</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        A good learning environment includes more than classrooms. Facilities can give children opportunities to explore different interests and develop practical skills.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        During a school visit, look at:
+                    </p>
+                    <ul className="space-y-3 mb-6">
+                        {[
+                            "Library and reading spaces.",
+                            "Science and computer laboratories.",
+                            "Sports and outdoor activity areas.",
+                            "Classroom learning resources.",
+                            "Transportation facilities."
+                        ].map((fac, idx) => (
+                            <li key={idx} className="flex items-start gap-3 text-lg text-white">
+                                <CheckCircle2 className="w-6 h-6 text-brand-secondary shrink-0 mt-0.5" />
+                                <span>{fac}</span>
+                            </li>
+                        ))}
+                    </ul>
+                    <p className="text-lg leading-relaxed text-white">
+                        Parents looking for a CBSE school with good facilities should also understand how students use these resources as part of their everyday learning. Explore our <Link to="/facilities" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">campus facilities</Link> to see what Krisar Academy offers.
+                    </p>
+                </div>
+
+                {/* 5. Ask About Activities Beyond Academics */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">5. Ask About Activities Beyond Academics</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Children need opportunities to explore their interests outside regular classroom lessons.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Sports, arts, music, cultural programmes and other activities can help students develop confidence, teamwork and communication skills.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Ask the school about the activities available for different age groups and how students are encouraged to participate. Discover our <Link to="/uat-beyond-academics" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Beyond Academics initiatives</Link>.
+                    </p>
+                </div>
+
+                {/* 6. Consider Location and Transportation */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">6. Consider Location and Transportation</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        The daily journey to school is another important factor, especially for families travelling from nearby areas.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Before choosing a school, check the distance from home, available bus routes, pickup and drop-off timings and student safety arrangements.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        A convenient commute can help children follow a comfortable daily routine.
+                    </p>
+                </div>
+
+                {/* 7. Visit the School Before Making a Decision */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">7. Visit the School Before Making a Decision</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        A campus visit gives parents a better understanding of the school's environment than online information alone.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        During the visit, you can observe the classrooms, explore the facilities and speak with the school team. It is also a good opportunity to ask questions about academics, student support and admission procedures.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        If you are considering a <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE School in Ranipet</Link>, compare the available options based on your child's needs rather than making a decision based only on advertisements or recommendations.
+                    </p>
+                </div>
+
+                {/* Frequently Asked Questions */}
+                <section className="pt-8 border-t border-white/10 mb-12">
+                    <h3 className="text-2xl font-bold mb-8 text-white">Frequently Asked Questions</h3>
+                    <div className="space-y-6">
+                        {[
+                            {
+                                q: "What should parents check before choosing a CBSE school?",
+                                a: "Parents should look at teaching methods, facilities, student safety, extracurricular activities, transportation and the overall learning environment."
+                            },
+                            {
+                                q: "What documents are generally needed for CBSE school admission?",
+                                a: "Commonly requested documents include a birth certificate, photographs, previous academic records where applicable, and parent identification. Requirements vary by school."
+                            },
+                            {
+                                q: "Can parents visit a school before applying for admission?",
+                                a: "Yes. Parents can contact the school to arrange a visit, understand the facilities and clarify their admission-related questions."
+                            },
+                            {
+                                q: "How can I find a suitable CBSE school in Ranipet?",
+                                a: "Shortlist schools based on your child's academic needs, location, facilities and teaching approach. Visiting the campus and speaking with the school team can help you make a more informed choice."
+                            }
+                        ].map((faq, idx) => (
+                            <div key={idx} className="p-6 bg-white/5 rounded-2xl border border-white/10">
+                                <h5 className="font-bold text-brand-secondary mb-3 text-lg">{faq.q}</h5>
+                                <p className="text-white/80 leading-relaxed font-light">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                {/* Final Thoughts & Call to Action */}
+                <section className="bg-brand-secondary p-10 md:p-12 rounded-[2.5rem] text-brand-primary text-center my-12 shadow-xl">
+                    <h3 className="text-3xl font-bold mb-6">Final Thoughts</h3>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        Finding the right school takes more than checking admission availability. Parents should understand the teaching approach, explore the facilities and consider how the school supports a child's overall development.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
+                        If you are searching for a <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">Best CBSE School in Ranipet</Link>, explore Krisar Academy and learn more about its academic programmes, campus facilities and learning environment. Contact the school team to discuss admission details and see whether it matches your child's educational needs.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
+                            Enquire for Admissions 2026-27
+                        </Link>
+                        <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
+                            <span>📞</span> +91 75400 88387
+                        </a>
+                    </div>
+                </section>
+            </>
+        )
+    },
+    {
+        id: 24,
+        slug: "how-cbse-education-supports-a-childs-overall-development",
+        title: "Beyond Textbooks: How CBSE Education Supports a Child's Overall Development",
+        metaTitle: "How CBSE Education Supports Overall Child Development",
+        metaDescription: "Discover how CBSE education supports children's overall development through practical learning, sports, creativity, communication skills and extracurricular activities.",
+        date: "October 31, 2026",
+        image: blog24,
+        category: "Education",
+        icon: "BookOpen",
+        description: "Discover how CBSE education supports children's overall development through practical learning, sports, creativity, communication skills and extracurricular activities.",
+        content: (
+            <>
+                <p className="mb-6 text-xl font-medium leading-relaxed text-brand-secondary">
+                    A child's education is not limited to lessons, homework and examinations.
+                </p>
+                <p className="mb-6 text-lg leading-relaxed text-white">
+                    School is also where children learn to communicate, work with others, explore their interests and become more independent.
+                </p>
+                <p className="mb-10 text-lg leading-relaxed text-white">
+                    While academic performance is important, parents also want their children to develop skills that are useful in everyday life. This is why it is worth understanding how a school's learning approach contributes to a child's overall growth.
+                </p>
+
+                {/* 1. Learning to Understand, Not Just Memorise */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">1. Learning to Understand, Not Just Memorise</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Children understand lessons better when they can connect what they learn in class with real-life situations.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Activity-based learning, classroom discussions and practical examples can make different subjects easier to understand. These methods also encourage children to ask questions and think about what they are learning.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        A good CBSE learning approach should give students opportunities to understand concepts rather than simply memorise answers. Discover our <Link to="/uat-academics" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">academic framework</Link> designed for deep comprehension.
+                    </p>
+                </div>
+
+                {/* 2. Building Communication Skills */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">2. Building Communication Skills</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Being able to express thoughts clearly is an important skill for children.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Classroom discussions, group activities, presentations and storytelling give students opportunities to speak and share their ideas. These experiences can gradually improve their confidence when communicating with others.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Parents looking for a CBSE school with <Link to="/uat-beyond-academics" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">extracurricular activities</Link> can also check whether students get opportunities to participate in speeches, debates and other communication-based activities.
+                    </p>
+                </div>
+
+                {/* 3. Encouraging Creativity and Independent Thinking */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">3. Encouraging Creativity and Independent Thinking</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Every child has different interests and ways of understanding things. Creative activities allow students to explore ideas and express themselves.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Drawing, craft, music, writing and project-based activities can encourage imagination and problem-solving.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        When children are given opportunities to try different activities, they may discover interests and abilities they did not know they had.
+                    </p>
+                </div>
+
+                {/* 4. Understanding the Importance of Sports */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">4. Understanding the Importance of Sports</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Sports are an important part of a child's school experience. Playing games teaches children to follow rules, work as a team and handle both success and failure.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Physical activities also encourage children to stay active and develop discipline.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Parents exploring a CBSE school with <Link to="/facilities" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">sports facilities</Link> should check the activities available to students and how regularly they get opportunities to participate.
+                    </p>
+                </div>
+
+                {/* 5. Developing Teamwork and Social Skills */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">5. Developing Teamwork and Social Skills</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        School gives children the chance to interact with classmates from different backgrounds and with different interests.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Group projects, team games and classroom activities help students understand cooperation, sharing and respecting other people's ideas.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        These experiences can help children become more comfortable working with others.
+                    </p>
+                </div>
+
+                {/* 6. Making Technology Part of Learning */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">6. Making Technology Part of Learning</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Technology is becoming an important part of education. When used appropriately, digital learning resources can make lessons more interactive and help students understand complex topics.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Activities involving computers, basic coding and robotics can introduce children to new concepts and encourage logical thinking.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Parents can ask how schools use technology in classrooms and whether students receive opportunities for practical learning in modern <Link to="/facilities" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">labs and smart classrooms</Link>.
+                    </p>
+                </div>
+
+                {/* 7. Creating a Supportive Learning Environment */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">7. Creating a Supportive Learning Environment</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Children learn best when they feel comfortable asking questions, making mistakes and trying again.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Teachers play an important role in creating an environment where students feel encouraged to participate. Regular feedback and guidance can also help children understand their strengths and areas where they need support.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        A supportive CBSE school environment should give importance to both academic progress and the individual needs of students.
+                    </p>
+                </div>
+
+                {/* Frequently Asked Questions */}
+                <section className="pt-8 border-t border-white/10 mb-12">
+                    <h3 className="text-2xl font-bold mb-8 text-white">Frequently Asked Questions</h3>
+                    <div className="space-y-6">
+                        {[
+                            {
+                                q: "Why is overall development important in school education?",
+                                a: "Overall development helps children build academic knowledge along with communication, creativity, teamwork and problem-solving skills."
+                            },
+                            {
+                                q: "What activities help children develop confidence?",
+                                a: "Public speaking, group discussions, sports, cultural programmes and classroom presentations can give children opportunities to express themselves and interact with others."
+                            },
+                            {
+                                q: "How do extracurricular activities benefit students?",
+                                a: "They allow children to explore different interests, learn new skills, work with others and develop confidence outside regular classroom lessons."
+                            },
+                            {
+                                q: "What should parents look for beyond academic results?",
+                                a: "Parents can also consider teaching methods, sports opportunities, creative activities, student support and the overall learning environment."
+                            }
+                        ].map((faq, idx) => (
+                            <div key={idx} className="p-6 bg-white/5 rounded-2xl border border-white/10">
+                                <h5 className="font-bold text-brand-secondary mb-3 text-lg">{faq.q}</h5>
+                                <p className="text-white/80 leading-relaxed font-light">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                {/* Final Thoughts & Call to Action */}
+                <section className="bg-brand-secondary p-10 md:p-12 rounded-[2.5rem] text-brand-primary text-center my-12 shadow-xl">
+                    <h3 className="text-3xl font-bold mb-6">Final Thoughts</h3>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        A child's school experience should offer opportunities to learn, explore and discover new interests. Academic knowledge provides an important foundation, while activities beyond textbooks help children develop skills they can use throughout life.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
+                        If you are exploring a <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">Best CBSE School in Arani</Link>, take time to understand its academic approach, extracurricular opportunities and learning environment. The right balance of academics and other activities can make a meaningful difference in a child's educational journey.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
+                            Enquire for Admissions 2026-27
+                        </Link>
+                        <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
+                            <span>📞</span> +91 75400 88387
+                        </a>
+                    </div>
+                </section>
+            </>
+        )
+    },
+    {
+        id: 25,
+        slug: "how-to-build-good-study-habits-in-children",
+        title: "How to Build Good Study Habits in Children: A Guide for Parents",
+        metaTitle: "How to Build Good Study Habits in Children | Parent's Guide",
+        metaDescription: "Discover practical ways to build good study habits in children through daily routines, reading, effective learning techniques, revision and parental support.",
+        date: "October 31, 2026",
+        image: blog25,
+        category: "Education",
+        icon: "BookOpen",
+        description: "Discover practical ways to build good study habits in children through daily routines, reading, effective learning techniques, revision and parental support.",
+        content: (
+            <>
+                <p className="mb-6 text-xl font-medium leading-relaxed text-brand-secondary">
+                    Helping children develop good study habits takes time, patience and the right support.
+                </p>
+                <p className="mb-6 text-lg leading-relaxed text-white">
+                    Some children enjoy studying, while others may find it difficult to sit in one place, concentrate or complete their homework.
+                </p>
+                <p className="mb-10 text-lg leading-relaxed text-white">
+                    Parents play an important role in making learning a regular part of a child's daily routine. Simple changes at home can help children become more organised, focused and confident in their studies.
+                </p>
+
+                {/* 1. Create a Regular Study Routine */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">1. Create a Regular Study Routine</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Children often find it easier to study when they follow a consistent daily schedule.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Set aside a particular time for homework, reading and revision. The routine does not have to be complicated. Even a short, regular study session can help children become familiar with managing their learning time.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        A daily study timetable for students can also help them balance schoolwork, playtime and other activities.
+                    </p>
+                </div>
+
+                {/* 2. Choose a Comfortable Study Space */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">2. Choose a Comfortable Study Space</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        The place where children study can affect their ability to concentrate.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Choose a quiet, well-lit area with a comfortable seating arrangement. Keep textbooks, notebooks, stationery and other learning materials within reach.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Try to keep away distractions such as television, mobile phones and unnecessary noise during study time. A dedicated space can help children understand when it is time to focus on their lessons.
+                    </p>
+                </div>
+
+                {/* 3. Encourage Reading Every Day */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">3. Encourage Reading Every Day</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Reading helps children improve vocabulary, language skills and understanding.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Parents can encourage children to read storybooks, short articles or age-appropriate educational material. Younger children may enjoy reading with their parents, while older students can gradually develop independent reading habits.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Spending even 15–20 minutes a day with a book can make reading a regular part of their routine. At Krisar Academy, our <Link to="/facilities" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">modern school library</Link> provides students with a wide range of books to build lasting reading habits.
+                    </p>
+                </div>
+
+                {/* 4. Help Children Understand Instead of Memorising */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">4. Help Children Understand Instead of Memorising</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Remembering information is useful, but understanding a concept is equally important.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Instead of asking children to memorise every answer, encourage them to explain what they have learned in their own words. Use simple examples from everyday life to make difficult topics easier to understand.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        This approach can improve conceptual learning, encourage curiosity and help children apply their knowledge in different situations. Learn more about our <Link to="/uat-academics" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">inquiry-based academic approach</Link>.
+                    </p>
+                </div>
+
+                {/* 5. Divide Large Tasks into Smaller Activities */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">5. Divide Large Tasks into Smaller Activities</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Looking at several chapters or assignments at once can make studying feel difficult.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Help children divide their work into smaller tasks. For example, they can complete one lesson, take a short break and then move on to the next activity.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Following effective study techniques for students, such as making short notes, practising questions and revising lessons regularly, can make learning more manageable.
+                    </p>
+                </div>
+
+                {/* 6. Allow Time for Breaks and Play */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">6. Allow Time for Breaks and Play</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Studying for long hours without a break can make children tired and less interested in learning.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Include short breaks between study sessions. Outdoor games, physical activities and hobbies give children time to relax before returning to their lessons.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        A healthy balance between study and play can help children maintain interest in their daily routine. Explore how our <Link to="/uat-beyond-academics" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">beyond academics programmes</Link> foster this balanced growth.
+                    </p>
+                </div>
+
+                {/* 7. Appreciate Effort and Progress */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">7. Appreciate Effort and Progress</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Children may not understand every lesson immediately or get every answer right. Instead of focusing only on marks, appreciate their effort and improvement.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Encourage them to ask questions, learn from mistakes and try again when something feels difficult.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Positive feedback can help children develop confidence and a better attitude towards learning.
+                    </p>
+                </div>
+
+                {/* Frequently Asked Questions */}
+                <section className="pt-8 border-t border-white/10 mb-12">
+                    <h3 className="text-2xl font-bold mb-8 text-white">Frequently Asked Questions</h3>
+                    <div className="space-y-6">
+                        {[
+                            {
+                                q: "How many hours should children study at home?",
+                                a: "Study time depends on the child's age, class and schoolwork. Younger children generally benefit from shorter learning sessions, while older students may need more time for homework and revision."
+                            },
+                            {
+                                q: "How can parents improve a child's concentration while studying?",
+                                a: "A quiet study space, regular breaks and a fixed study schedule can help. Parents can also reduce distractions and divide lessons into smaller tasks."
+                            },
+                            {
+                                q: "What are some effective study techniques for school students?",
+                                a: "Reading regularly, preparing short notes, practising questions, revising lessons and explaining concepts in their own words are useful study methods."
+                            },
+                            {
+                                q: "How can schools support better learning habits?",
+                                a: "Schools can encourage students through interactive lessons, regular practice, classroom discussions and guidance from teachers. Consistent communication between parents and teachers can also support a child's learning progress."
+                            }
+                        ].map((faq, idx) => (
+                            <div key={idx} className="p-6 bg-white/5 rounded-2xl border border-white/10">
+                                <h5 className="font-bold text-brand-secondary mb-3 text-lg">{faq.q}</h5>
+                                <p className="text-white/80 leading-relaxed font-light">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                {/* Final Thoughts & Call to Action */}
+                <section className="bg-brand-secondary p-10 md:p-12 rounded-[2.5rem] text-brand-primary text-center my-12 shadow-xl">
+                    <h3 className="text-3xl font-bold mb-6">Final Thoughts</h3>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        Good study habits are built gradually through regular practice and encouragement. Children do not need to follow a perfect routine from the beginning. With patience and support from parents and teachers, they can learn to manage their time, understand lessons and take greater responsibility for their studies.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
+                        If you are exploring the <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">Best CBSE schools in Vellore</Link>, look at how the school encourages classroom participation, independent learning and regular academic progress. A supportive learning environment can help children develop habits that benefit them both inside and outside the classroom.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
+                            Enquire for Admissions 2026-27
+                        </Link>
+                        <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
+                            <span>📞</span> +91 75400 88387
+                        </a>
+                    </div>
+                </section>
+            </>
+        )
+    },
+    {
+        id: 26,
+        slug: "school-safety-what-parents-should-know",
+        title: "School Safety Matters: What Every Parent Should Know Before Choosing a School",
+        metaTitle: "School Safety: What Parents Should Check Before Choosing school",
+        metaDescription: "Learn what parents should check about school safety, student supervision, bus transportation, emergency preparedness, campus hygiene and student well-being.",
+        date: "October 31, 2026",
+        image: blog26,
+        category: "Education",
+        icon: "BookOpen",
+        description: "Learn what parents should check about school safety, student supervision, bus transportation, emergency preparedness, campus hygiene and student well-being.",
+        content: (
+            <>
+                <p className="mb-6 text-xl font-medium leading-relaxed text-brand-secondary">
+                    Sending a child to school means trusting others with their care for several hours every day. Along with academics and facilities, parents want to know whether their children are safe, comfortable and properly supervised during school hours.
+                </p>
+                <p className="mb-6 text-lg leading-relaxed text-white">
+                    School safety involves more than protecting children from accidents. It also includes maintaining a supportive environment, following safety procedures and making sure students know whom to approach when they need help.
+                </p>
+                <p className="mb-10 text-lg leading-relaxed text-white">
+                    Here are some important things parents should understand about safety in schools.
+                </p>
+
+                {/* 1. Safe and Well-Maintained Classrooms */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">1. Safe and Well-Maintained Classrooms</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Children spend a significant part of their day inside classrooms. These spaces should be clean, organised and suitable for everyday learning.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Parents can check whether classrooms have proper ventilation, comfortable seating, adequate lighting and enough space for students to move around.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        It is also worth observing whether furniture, electrical fittings and other classroom equipment are maintained properly.
+                    </p>
+                </div>
+
+                {/* 2. Student Supervision During School Hours */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">2. Student Supervision During School Hours</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Children may need guidance and supervision at different points throughout the school day, not just during lessons.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Parents can ask how students are supervised during breaks, lunchtime, outdoor activities and movement between classrooms.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        A clear supervision system helps ensure that children know where to go and whom to approach if they need assistance.
+                    </p>
+                </div>
+
+                {/* 3. School Bus and Transportation Safety */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">3. School Bus and Transportation Safety</h3>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        For children travelling by school bus, transportation arrangements are an important part of school safety.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white font-medium">
+                        Before selecting a school, parents can ask about:
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                        {[
+                            "School bus routes and pickup points.",
+                            "Student supervision during travel.",
+                            "Driver verification and safety procedures.",
+                            "Pickup and drop-off arrangements.",
+                            "How parents are informed about transport-related updates."
+                        ].map((point, idx) => (
+                            <div key={idx} className="flex items-start gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary text-lg mt-0.5">✓</span>
+                                <span className="text-white text-base leading-relaxed">{point}</span>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-lg leading-relaxed text-white">
+                        Families looking for a school with <Link to="/facilities" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">safe transportation facilities</Link> should understand these arrangements before enrolling their children.
+                    </p>
+                </div>
+
+                {/* 4. Emergency Preparedness */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">4. Emergency Preparedness</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Schools should have clear procedures for responding to unexpected situations.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Parents can ask whether the school conducts fire safety drills, has emergency contact procedures and provides first-aid support when required.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        It is also useful to understand how parents are informed during emergencies and what steps are followed to ensure student safety. At The Krisar Academy, statutory safety certifications including fire safety and building safety compliance are openly published on our <Link to="/cbse-disclosure" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">mandatory CBSE disclosure portal</Link>.
+                    </p>
+                </div>
+
+                {/* Inner Image: Medical Facilities / Student Care */}
+                <div className="mb-10 rounded-2xl overflow-hidden border border-white/10 shadow-lg">
+                    <img 
+                        src={blog26Inner} 
+                        alt="Student Care and Medical Support at The Krisar Academy" 
+                        className="w-full h-auto object-cover max-h-[420px]"
+                    />
+                    <div className="p-4 bg-brand-primary/40 text-center text-sm text-white/70 italic border-t border-white/10">
+                        Dedicated health check-ups and immediate first-aid medical support for every student at The Krisar Academy.
+                    </div>
+                </div>
+
+                {/* 5. Cleanliness and Hygiene Around the Campus */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">5. Cleanliness and Hygiene Around the Campus</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        A clean school environment supports children's everyday comfort and well-being.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        During a campus visit, parents can observe the condition of classrooms, washrooms, drinking water facilities and dining areas.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Regular cleaning, proper waste disposal and access to clean drinking water are important aspects of maintaining a healthy school environment. Check out our modern <Link to="/facilities" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">campus sanitation and facilities</Link>.
+                    </p>
+                </div>
+
+                {/* 6. Emotional Safety and Student Well-Being */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">6. Emotional Safety and Student Well-Being</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Children should feel comfortable expressing themselves, asking questions and speaking to teachers when something bothers them.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Parents can understand how the school handles student concerns, peer conflicts and bullying-related complaints.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        A positive school environment should encourage respectful behaviour and ensure that students know they will be heard when they seek help.
+                    </p>
+                </div>
+
+                {/* 7. Communication Between School and Parents */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">7. Communication Between School and Parents</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Good communication helps parents stay informed about their child's school experience.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Ask how the school shares important announcements, academic updates, attendance information and safety-related communication.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        It is also helpful to know whom to contact if you have a concern about your child's well-being.
+                    </p>
+                </div>
+
+                {/* Frequently Asked Questions */}
+                <section className="pt-8 border-t border-white/10 mb-12">
+                    <h3 className="text-2xl font-bold mb-8 text-white">Frequently Asked Questions</h3>
+                    <div className="space-y-6">
+                        {[
+                            {
+                                q: "What should parents check when visiting a school?",
+                                a: "Parents can observe classroom conditions, campus cleanliness, student supervision, transport arrangements and emergency safety procedures."
+                            },
+                            {
+                                q: "Why is student supervision important in schools?",
+                                a: "Supervision helps children receive assistance when needed and supports their safety during classroom activities, breaks and other school routines."
+                            },
+                            {
+                                q: "What should parents ask about school bus safety?",
+                                a: "Ask about bus routes, driver verification, student supervision, pickup and drop-off procedures and emergency communication arrangements."
+                            },
+                            {
+                                q: "How can parents know if a school provides a safe learning environment?",
+                                a: "A campus visit and a discussion with the school team can help parents understand the safety procedures, supervision practices and student support systems followed by the school."
+                            }
+                        ].map((faq, idx) => (
+                            <div key={idx} className="p-6 bg-white/5 rounded-2xl border border-white/10">
+                                <h5 className="font-bold text-brand-secondary mb-3 text-lg">{faq.q}</h5>
+                                <p className="text-white/80 leading-relaxed font-light">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                {/* Final Thoughts & Call to Action */}
+                <section className="bg-brand-secondary p-10 md:p-12 rounded-[2.5rem] text-brand-primary text-center my-12 shadow-xl">
+                    <h3 className="text-3xl font-bold mb-6">Final Thoughts</h3>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        A child's school experience should offer both learning opportunities and a sense of security. Parents should take time to understand the safety arrangements, observe the campus and ask questions before making their decision.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        When comparing the <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">Best CBSE Schools in Arcot</Link>, look beyond academic performance and facilities. Understanding how a school approaches student safety, supervision and well-being can help you choose an environment where your child feels comfortable and supported.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
+                        If you are considering the Best CBSE Schools in Arcot, explore Krisar Academy and speak with the school team to learn more about its campus, student support and safety practices.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
+                            Enquire for Admissions 2026-27
                         </Link>
                         <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
                             <span>📞</span> +91 75400 88387

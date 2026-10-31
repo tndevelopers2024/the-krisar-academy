@@ -1,5 +1,5 @@
 import React from 'react';
-import { Anchor, Trophy, ArrowRight } from 'lucide-react';
+import { Anchor, Trophy, BookOpen, Calendar, ArrowRight } from 'lucide-react';
 import PageHero from '../components/common/PageHero.jsx';
 import SEO from '../components/common/SEO.jsx';
 import Button from '../components/ui/Button.jsx';
@@ -7,6 +7,9 @@ import { Link } from 'react-router-dom';
 import { blogData } from '../data/blogData.jsx';
 
 const Blogs = () => {
+    // Show newest / most recent blogs first at the top of the page
+    const sortedBlogs = [...blogData].sort((a, b) => b.id - a.id);
+
     return (
         <div className="min-h-screen bg-[#0B1221] text-white">
             <SEO
@@ -44,7 +47,7 @@ const Blogs = () => {
 
                 {/* Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {blogData.map((item) => (
+                    {sortedBlogs.map((item) => (
                         <div
                             key={item.id}
                             className="group h-full bg-[#151E38]/50 border border-white/10 rounded-xl overflow-hidden hover:border-brand-secondary/50 transition-all duration-300 flex flex-col"
@@ -58,7 +61,7 @@ const Blogs = () => {
                                 />
                                 {/* Category Badge */}
                                 <div className="absolute top-4 right-4 bg-[#151E38]/90 backdrop-blur-sm px-3 py-1.5 rounded flex items-center gap-2 border border-brand-secondary/30 text-brand-secondary text-sm font-medium">
-                                    <Trophy size={16} />
+                                    {item.icon === 'BookOpen' ? <BookOpen size={16} /> : <Trophy size={16} />}
                                     {item.category}
                                 </div>
                             </div>
@@ -66,6 +69,12 @@ const Blogs = () => {
                             {/* Content */}
                             <div className="p-6 flex-grow text-left flex flex-col justify-between">
                                 <div>
+                                    {item.date && (
+                                        <div className="flex items-center gap-1.5 text-xs text-brand-secondary mb-2 font-medium">
+                                            <Calendar size={13} />
+                                            <span>{item.date}</span>
+                                        </div>
+                                    )}
                                     <h3 className="text-xl font-medium leading-snug mb-4 text-white group-hover:text-brand-secondary transition-colors line-clamp-3">
                                         {item.title}
                                     </h3>

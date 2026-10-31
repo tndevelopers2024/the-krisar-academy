@@ -1,12 +1,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const toAbsolute = (p) => path.resolve(__dirname, '..', p);
 
 const template = fs.readFileSync(toAbsolute('dist/index.html'), 'utf-8');
-const { render } = await import(toAbsolute('dist/server/entry-server.js'));
+const { render } = await import(pathToFileURL(toAbsolute('dist/server/entry-server.js')).href);
 
 import { routes as staticRoutes } from '../src/data/routes.js';
 

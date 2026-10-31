@@ -21,8 +21,11 @@ const BlogDetail = () => {
         );
     }
 
-    // Recent articles (excluding current one)
-    const recentArticles = blogData.filter(item => item.id !== blog.id).slice(0, 5);
+    // Recent articles (excluding current one, sorted newest first)
+    const recentArticles = [...blogData]
+        .sort((a, b) => b.id - a.id)
+        .filter(item => item.id !== blog.id)
+        .slice(0, 5);
 
     return (
         <div className="min-h-screen bg-[#0B1221] text-white">
@@ -34,6 +37,12 @@ const BlogDetail = () => {
             {/* Using Page Header style but maybe simpler or same */}
             <section className="bg-brand-primary pt-48 pb-16 px-4 text-center">
                 <div className="max-w-4xl mx-auto">
+                    {blog.date && (
+                        <div className="inline-flex items-center gap-2 bg-white/10 px-4 py-1.5 rounded-full text-brand-secondary text-sm mb-4 backdrop-blur-sm border border-white/10">
+                            <span>{blog.date}</span>
+                            {blog.category && <span className="text-white/60">• {blog.category}</span>}
+                        </div>
+                    )}
                     <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight">
                         {blog.title}
                     </h1>
