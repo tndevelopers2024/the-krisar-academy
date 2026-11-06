@@ -33,6 +33,8 @@ import blog24 from '../assets/images/academics/beyond-academics.avif';
 import blog25 from '../assets/images/facilities/modern-library.png';
 import blog26 from '../assets/images/facilities/transport.png';
 import blog26Inner from '../assets/images/facilities/medical-facilities.png';
+import blog27 from '../assets/images/home/academic-excellence/academic-curriculum.png';
+import blog27Inner from '../assets/images/facilities/lab-facilities.png';
 
 // Gallery Images for Blog
 import gallery1 from '../assets/images/gallery/krisar-img-076.jpeg';
@@ -4543,6 +4545,292 @@ export const blogData = [
                     </p>
                     <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
                         If you are considering the Best CBSE Schools in Arcot, explore Krisar Academy and speak with the school team to learn more about its campus, student support and safety practices.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
+                            Enquire for Admissions 2026-27
+                        </Link>
+                        <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
+                            <span>📞</span> +91 75400 88387
+                        </a>
+                    </div>
+                </section>
+            </>
+        )
+    },
+    {
+        id: 27,
+        slug: "cbse-curriculum-explained-what-children-learn-at-each-stage",
+        title: "CBSE Curriculum Explained: What Children Learn at Each Stage of Schooling",
+        metaTitle: "CBSE Curriculum Explained: A Guide for Parents",
+        metaDescription: "Understand the CBSE curriculum, learning stages, assessment methods and key subjects children study from primary to secondary school.",
+        date: "November 6, 2026",
+        image: blog27,
+        category: "Education",
+        icon: "BookOpen",
+        description: "Understand the CBSE curriculum, learning stages, assessment methods and key subjects children study from primary to secondary school.",
+        content: (
+            <>
+                <p className="mb-6 text-xl font-medium leading-relaxed text-brand-secondary">
+                    Choosing a school involves more than checking its location, facilities or academic results. Parents should also understand what their children will learn and how their education will progress over the years.
+                </p>
+                <p className="mb-6 text-lg leading-relaxed text-white">
+                    The Central Board of Secondary Education (CBSE) follows a structured curriculum designed to develop academic understanding, practical knowledge and essential life skills. The learning approach changes as students move from primary classes to secondary and senior secondary levels.
+                </p>
+                <p className="mb-10 text-lg leading-relaxed text-white">
+                    Understanding these stages can help parents make better decisions about their child's education.
+                </p>
+
+                {/* 1. Primary Stage: Building Strong Learning Foundations */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">1. Primary Stage: Building Strong Learning Foundations</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        The primary stage introduces children to fundamental concepts and helps them become comfortable with formal learning.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white font-medium">
+                        Students generally study subjects such as:
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                        {[
+                            "English and other languages",
+                            "Mathematics",
+                            "Environmental Studies",
+                            "Basic computer education, depending on the school"
+                        ].map((subject, idx) => (
+                            <div key={idx} className="flex items-center gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary text-lg">✓</span>
+                                <span className="text-white text-base leading-relaxed">{subject}</span>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        At this stage, learning often involves storytelling, classroom activities, simple experiments, reading and interactive exercises.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        The focus is on developing language skills, number sense, curiosity and the confidence to participate in class.
+                    </p>
+                </div>
+
+                {/* 2. Middle Stage: Understanding Concepts in Greater Depth */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">2. Middle Stage: Understanding Concepts in Greater Depth</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        As children progress into middle school, subjects become more detailed and structured.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Science and Social Science develop into broader areas of study. Students begin exploring concepts in Physics, Chemistry, Biology, History, Geography and Civics through age-appropriate lessons.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Mathematics also introduces more advanced topics such as algebra, geometry and data handling.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        At this stage, students benefit from activities that encourage them to ask questions, analyse information and understand how classroom concepts connect with everyday life.
+                    </p>
+                </div>
+
+                {/* Inner Image: Academic Learning & Laboratory Environment */}
+                <div className="mb-10 rounded-2xl overflow-hidden border border-white/10 shadow-lg">
+                    <img 
+                        src={blog27Inner} 
+                        alt="Practical Science and Technology Labs at The Krisar Academy" 
+                        className="w-full h-auto object-cover max-h-[420px]"
+                    />
+                    <div className="p-4 bg-brand-primary/40 text-center text-sm text-white/70 italic border-t border-white/10">
+                        Interactive lab sessions and experiential learning at The Krisar Academy reinforce classroom concepts with real-world understanding.
+                    </div>
+                </div>
+
+                {/* 3. Secondary Stage: Preparing for Academic Challenges */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">3. Secondary Stage: Preparing for Academic Challenges</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Classes 9 and 10 are important stages in a student's academic journey.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Students study subjects in greater depth and gradually become familiar with the CBSE board examination pattern.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white font-medium">
+                        The curriculum generally includes:
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                        {[
+                            "Mathematics",
+                            "Science",
+                            "Social Science",
+                            "English",
+                            "A second language",
+                            "Skill-based or additional subjects, depending on the school"
+                        ].map((item, idx) => (
+                            <div key={idx} className="flex items-center gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary text-lg">✓</span>
+                                <span className="text-white text-base leading-relaxed">{item}</span>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Regular revision, practical activities, assignments and periodic assessments help students understand their progress.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Parents can support children by encouraging consistent study habits rather than relying only on last-minute examination preparation.
+                    </p>
+                </div>
+
+                {/* 4. Senior Secondary Stage: Choosing a Direction */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">4. Senior Secondary Stage: Choosing a Direction</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        In Classes 11 and 12, students move towards more specialised learning.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white font-medium">
+                        Depending on the subjects offered by their school, students may choose combinations from areas such as:
+                    </p>
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+                        {[
+                            { title: "Science", desc: "Physics, Chemistry, Maths & Biology" },
+                            { title: "Commerce", desc: "Accountancy, Business & Economics" },
+                            { title: "Humanities", desc: "History, Political Science & Sociology" }
+                        ].map((stream, idx) => (
+                            <div key={idx} className="bg-white/5 p-5 rounded-2xl border border-white/10 text-center">
+                                <h4 className="text-xl font-bold text-brand-secondary mb-1">{stream.title}</h4>
+                                <p className="text-xs text-white/70">{stream.desc}</p>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        The subjects studied during these years can influence future higher education choices. For example, students interested in engineering may consider Physics, Chemistry and Mathematics, while those planning medical studies generally require Physics, Chemistry and Biology.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Parents should discuss their child's interests, strengths and future goals before selecting subjects.
+                    </p>
+                </div>
+
+                {/* 5. How CBSE Assessment Works */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">5. How CBSE Assessment Works</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Assessment is not limited to final examinations. Students are evaluated through different methods during the academic year.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white font-medium">
+                        These may include:
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                        {[
+                            "Written tests and examinations",
+                            "Classroom activities",
+                            "Projects and assignments",
+                            "Practical work",
+                            "Periodic assessments"
+                        ].map((method, idx) => (
+                            <div key={idx} className="flex items-center gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary text-lg">✓</span>
+                                <span className="text-white text-base leading-relaxed">{method}</span>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        The purpose is to understand a student's progress across different areas of learning.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Parents should review assessment feedback regularly and identify subjects or concepts where their child may need additional support.
+                    </p>
+                </div>
+
+                {/* 6. Why Learning Beyond Textbooks Matters */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">6. Why Learning Beyond Textbooks Matters</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Academic subjects provide important knowledge, but children also need opportunities to develop other skills.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white font-medium">
+                        Activities such as sports, arts, group projects, presentations and reading can support:
+                    </p>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-6">
+                        {[
+                            "Communication skills",
+                            "Teamwork",
+                            "Creative thinking",
+                            "Problem-solving",
+                            "Self-confidence",
+                            "Time management"
+                        ].map((skill, idx) => (
+                            <div key={idx} className="flex items-center gap-2.5 bg-white/5 p-3.5 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary">✓</span>
+                                <span className="text-white text-sm font-medium">{skill}</span>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-lg leading-relaxed text-white">
+                        A balanced school experience gives children opportunities to explore their interests while continuing their academic learning. Explore how our <Link to="/uat-beyond-academics" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">beyond academics programmes</Link> foster this balanced growth.
+                    </p>
+                </div>
+
+                {/* What Should Parents Check When Choosing a CBSE School? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">What Should Parents Check When Choosing a CBSE School?</h3>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        Parents comparing the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE Schools in Arcot</Link> should look beyond examination results and consider how the school supports learning at different stages.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white font-medium">
+                        Some useful questions to ask include:
+                    </p>
+                    <div className="space-y-3 mb-6">
+                        {[
+                            "Does the school follow the current CBSE curriculum?",
+                            "How are difficult concepts explained to students?",
+                            "Are practical learning activities included?",
+                            "What academic support is available for students who need help?",
+                            "What subjects and combinations are offered in senior secondary classes?",
+                            "How does the school communicate student progress to parents?"
+                        ].map((question, idx) => (
+                            <div key={idx} className="flex items-start gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary font-bold text-base mt-0.5">{idx + 1}.</span>
+                                <span className="text-white text-base leading-relaxed">{question}</span>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-lg leading-relaxed text-white">
+                        Visiting the campus and speaking with teachers can help parents understand the school's approach more clearly.
+                    </p>
+                </div>
+
+                {/* Frequently Asked Questions */}
+                <section className="pt-8 border-t border-white/10 mb-12">
+                    <h3 className="text-2xl font-bold mb-8 text-white">Frequently Asked Questions</h3>
+                    <div className="space-y-6">
+                        {[
+                            {
+                                q: "1. Is the CBSE curriculum the same across all schools?",
+                                a: "CBSE-affiliated schools follow the board's prescribed curriculum and academic guidelines. However, teaching methods, activities and additional learning opportunities may differ between schools."
+                            },
+                            {
+                                q: "2. At what class do students choose their stream in CBSE?",
+                                a: "Students generally choose their subject combinations when entering Class 11, based on the subjects offered by their school."
+                            },
+                            {
+                                q: "3. Does CBSE focus only on academic subjects?",
+                                a: "No. The curriculum also includes areas such as physical education, arts, skill education and other activities, depending on the applicable guidelines and school provisions."
+                            },
+                            {
+                                q: "4. How can parents support CBSE students at home?",
+                                a: "Parents can encourage regular reading, consistent study routines, independent learning and open discussions about what children learn at school."
+                            }
+                        ].map((faq, idx) => (
+                            <div key={idx} className="p-6 bg-white/5 rounded-2xl border border-white/10">
+                                <h5 className="font-bold text-brand-secondary mb-3 text-lg">{faq.q}</h5>
+                                <p className="text-white/80 leading-relaxed font-light">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                {/* Final Thoughts & Call to Action */}
+                <section className="bg-brand-secondary p-10 md:p-12 rounded-[2.5rem] text-brand-primary text-center my-12 shadow-xl">
+                    <h3 className="text-3xl font-bold mb-6">Final Thoughts</h3>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        Understanding the CBSE curriculum helps parents see how their child's learning develops from basic concepts to specialised subjects. Each stage builds on the previous one, gradually preparing students for higher education and future responsibilities.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
+                        When comparing the <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">Best CBSE Schools in Arcot</Link>, parents should consider the quality of teaching, learning opportunities, academic support and the overall development of students, not just examination results.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
