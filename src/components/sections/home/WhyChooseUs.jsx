@@ -15,35 +15,35 @@ const features = [
     {
         icon: Stethoscope,
         type: 'component',
-        title: <p>Hygienic <span className='text-brand-secondary font-bold'>Environment</span></p>,
+        title: <>Hygienic <span className='text-brand-secondary font-bold'>Environment</span></>,
         description: "Clean, Safe & Healthy Campus",
         color: "text-blue-400"
     },
     {
         icon: Leaf,
         type: 'component',
-        title: <p>Green <span className='text-brand-secondary font-bold'>Campus</span></p>,
+        title: <>Green <span className='text-brand-secondary font-bold'>Campus</span></>,
         description: "Learn in Nature's Calm",
         color: "text-green-400"
     },
     {
         icon: Baby,
         type: 'component',
-        title: <p>Montessori <span className='text-brand-secondary font-bold'>Kindergarten</span></p>,
+        title: <>Montessori <span className='text-brand-secondary font-bold'>Kindergarten</span></>,
         description: "Early Learning with Trained Teachers",
         color: "text-yellow-400"
     },
     {
         icon: Building2,
         type: 'component',
-        title: <p>Indoor <span className='text-brand-secondary font-bold'>Auditorium</span></p>,
+        title: <>Indoor <span className='text-brand-secondary font-bold'>Auditorium</span></>,
         description: "1000-Seat Space for Events & Play",
         color: "text-purple-400"
     },
     {
         icon: Trophy,
         type: 'component',
-        title: <p>Competitive <span className='text-brand-secondary font-bold'>Exams</span></p>,
+        title: <>Competitive <span className='text-brand-secondary font-bold'>Exams</span></>,
         description: "Foundation for IIT-JEE, NEET & More",
         color: "text-red-400"
     }

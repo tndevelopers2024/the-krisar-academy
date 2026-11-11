@@ -3,9 +3,8 @@ import {
     BookOpen,
     Trophy,
     Library,
-    FlaskConical,
+    GraduationCap,
     Bus,
-    Drumstick,
     Compass
 } from 'lucide-react';
 import Button from '../../ui/Button';
@@ -17,53 +16,42 @@ import img4 from '../../../assets/images/home/facilities/modern-library.png';
 import img5 from '../../../assets/images/home/facilities/beyond-academics.png';
 import img6 from '../../../assets/images/home/facilities/qualified-teachers.png';
 
-// Placeholder images - using simple colored gradients for now until generic placeholders or real images are set
-// In a real scenario, we would import images. 
-// For this demo, I'll use some random Unsplash source URLs or just colored divs if I can't generate images. 
-// I will use colors + icons to match the "design" vibe if real images aren't available, 
-// but the prompt implies I can use generic ones. I'll use placeholders.
-
 const facilities = [
     {
         id: 1,
-        title: <p className=''>Academics</p>,
+        title: "Academics",
         icon: BookOpen,
-        // color: "from-blue-500 to-blue-700",
         image: img1
     },
     {
         id: 2,
-        title: <p className=''>Beyond Academics</p>,
+        title: "Beyond Academics",
         icon: Trophy,
-        // color: "from-pink-500 to-pink-700",
         image: img5
     },
     {
         id: 3,
-        title: <p className=''>Campus Life</p>,
+        title: "Campus Life",
         icon: Library,
-        // color: "from-green-500 to-green-700",
         image: img2
     },
     {
         id: 4,
-        title: <p className=''>Transport</p>,
-        icon: FlaskConical,
+        title: "Transport",
+        icon: Bus,
         color: "from-purple-500 to-purple-700",
         image: img3
     },
     {
         id: 5,
-        title: <p className=''>Qualified Teachers</p>,
-        icon: Bus,
-        // color: "from-yellow-500 to-orange-700",
+        title: "Qualified Teachers",
+        icon: GraduationCap,
         image: img6
     },
     {
         id: 6,
-        title: <p className=''>Modern Library</p>,
-        icon: Drumstick,
-        // color: "from-red-500 to-pink-700",
+        title: "Modern Library",
+        icon: BookOpen,
         image: img4
     }
 ];
@@ -90,11 +78,9 @@ const Facilities = () => {
                         Our classrooms are fully air-conditioned smart classrooms, equipped with modern teaching technology that enhances student engagement and learning outcomes. We provide advanced science and technology laboratories, offering practical exposure that exceeds standard school learning environments. Professional training in sports such as Skating and Archery helps improve physical agility. Students explore creativity through Music and Dance.
                     </p>
 
-                    <a href="/facilities">
-                        <Button className="!px-8">
-                            View All
-                        </Button>
-                    </a>
+                    <Button to="/facilities" className="!px-8">
+                        View All
+                    </Button>
                 </div>
 
                 {/* Right Content - Horizontal Accordion */}

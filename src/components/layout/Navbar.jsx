@@ -57,9 +57,9 @@ const Navbar = () => {
     <>
       <div className='bg-transparent py-3 absolute w-full left-0 z-50'>
         <div className='max-w-[1440px] mx-auto w-full flex items-center justify-between px-4'>
-          <a href='/' className="flex items-center">
+          <Link to='/' className="flex items-center">
             <img src={logo} alt="The Krisar Academy Logo" className="h-14 md:h-18 lg:h-22 w-auto object-contain" />
-          </a>
+          </Link>
 
           {/* Desktop Menu */}
           <div className="hidden md:block">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Trophy, Anchor } from 'lucide-react';
+import { Trophy, Newspaper } from 'lucide-react';
 import Button from '../../ui/Button';
 import { blogData } from '../../../data/blogData.jsx';
 import { Link } from 'react-router-dom';
@@ -12,7 +12,7 @@ const NewsUpdates = () => {
 
     return (
         <section
-            className="bg-cover bg-center md:py-20 relative overflow-hidden text-center text-white"
+            className="bg-cover bg-center py-12 md:py-20 relative overflow-hidden text-center text-white"
             style={{ backgroundImage: `url(${bgImage})` }}
         >
             <div className="max-w-[1440px] mx-auto px-4 md:px-8 flex flex-col items-center">
@@ -20,7 +20,7 @@ const NewsUpdates = () => {
                 {/* Header */}
                 <div className="mb-12">
                     <div className="inline-flex items-center gap-2 border border-white/20 rounded px-4 py-1.5 bg-white/5 backdrop-blur-sm mb-6">
-                        <Anchor size={16} className="text-gray-300" />
+                        <Newspaper size={16} className="text-gray-300" />
                         <span className="uppercase tracking-wider text-sm ">LATEST NEWS</span>
                     </div>
 
@@ -29,7 +29,7 @@ const NewsUpdates = () => {
                     </h2>
 
                     <p className="text-white max-w-2xl mx-auto text-lg leading-relaxed">
-                        Stay updated with the latest achievements and events at The Krisar Academy. Parents receive real-time performance reports and academic updates, enabling them to stay actively involved in their children's education.
+                      Stay updated with the latest achievements and events at The Krisar Academy. Parents receive real-time performance reports and academic updates, enabling them to stay actively involved in their children's education.
                     </p>
                 </div>
 

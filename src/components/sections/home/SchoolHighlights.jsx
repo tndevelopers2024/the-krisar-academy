@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
     GraduationCap,
     Laptop,
@@ -224,11 +225,14 @@ const SchoolHighlights = () => {
                 </div>
 
                 {/* Integrated Courses Banner */}
-                <div className="mt-16 md:mt-24 max-w-6xl mx-auto rounded-3xl md:rounded-[2.5rem] overflow-hidden relative border border-white/10 group cursor-pointer hover:border-brand-secondary/40 transition-all duration-500 bg-[#151E38]">
+                <Link
+                    to="/admission"
+                    className="block mt-16 md:mt-24 max-w-6xl mx-auto rounded-3xl md:rounded-[2.5rem] overflow-hidden relative border border-white/10 group cursor-pointer hover:border-brand-secondary/40 transition-all duration-500 bg-[#151E38]"
+                >
                     <div className="absolute inset-0 bg-gradient-to-r from-brand-secondary/20 to-transparent"></div>
                     <div className="relative z-10 p-10 md:p-16 text-center md:text-left flex flex-col md:flex-row items-center gap-8 md:gap-12">
                         <div className="flex-1">
-                            <h3 className="text-2xl md:text-4xl font-extrabold text-white mb-6 md:mb-8 tracking-tight leading-tight">
+                            <h3 className="text-2xl md:text-4xl font-extrabold text-white mb-6 md:mb-8 tracking-tight leading-tight group-hover:text-brand-secondary transition-colors">
                                 Integrated IIT-JEE, NEET Courses, And Competitive Exams
                             </h3>
                             <p className="text-gray-400 text-base md:text-lg leading-relaxed font-light">
@@ -236,13 +240,13 @@ const SchoolHighlights = () => {
                             </p>
                         </div>
                         <div className="shrink-0">
-                            <div className="px-8 py-4 bg-brand-secondary text-brand-primary font-bold rounded-xl md:rounded-2xl hover:scale-105 transition-transform duration-300 shadow-xl shadow-brand-secondary/20 flex items-center gap-2">
+                            <span className="px-8 py-4 bg-brand-secondary text-brand-primary font-bold rounded-xl md:rounded-2xl group-hover:scale-105 transition-transform duration-300 shadow-xl shadow-brand-secondary/20 inline-flex items-center gap-2">
                                 ENQUIRE NOW
                                 <ArrowRight size={20} />
-                            </div>
+                            </span>
                         </div>
                     </div>
-                </div>
+                </Link>
             </div>
         </section>
     );

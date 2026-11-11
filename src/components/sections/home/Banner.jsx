@@ -252,6 +252,7 @@ const Banner = () => {
             aria-label="School highlights"
             className="bg-brand-primary h-[calc(100svh-2rem)] md:h-[calc(115svh-3.5rem)] min-h-150 md:min-h-175 text-white overflow-hidden relative group"
         >
+            <h1 className="sr-only">The Krisar Academy - Best CBSE School in Ranipet &amp; Arcot</h1>
             {/* Navigation Arrows — hidden on mobile, where they would sit on top of the
                 slide heading and touch swipe covers navigation anyway.
                 They centre on the artwork band, not on the section: the copy occupies the
@@ -314,9 +315,9 @@ const Banner = () => {
                                                 artwork instead of overlaying it, so the type is a
                                                 step down — every pixel this band takes comes
                                                 straight off the height of the photo above it. */}
-                                            <h1 className="text-3xl font-bold text-center leading-tight">
+                                            <h2 className="text-3xl font-bold text-center leading-tight">
                                                 {slide.title}
-                                            </h1>
+                                            </h2>
 
                                             {/* Admissions Badge */}
                                             <div className="bg-white/10 backdrop-blur-md rounded px-4 py-1.5 border border-white/20 text-xs md:text-sm text-center">
@@ -379,9 +380,9 @@ const Banner = () => {
 
                                                 {/* Heading */}
                                                 {slide.title && (
-                                                    <h1 className="text-3xl font-bold leading-tight">
+                                                    <h2 className="text-3xl font-bold leading-tight">
                                                         {slide.title}
-                                                    </h1>
+                                                    </h2>
                                                 )}
 
                                                 {/* Description */}

@@ -43,18 +43,20 @@ const InstagramFeed = () => {
     };
 
     return (
-        <section className="bg-[url('./assets/images/home/news-updates/bg.avif')] bg-cover bg-center md:py-20 relative overflow-hidden text-center text-white">
+        <section className="bg-[url('./assets/images/home/news-updates/bg.avif')] bg-cover bg-center py-12 md:py-20 relative overflow-hidden text-center text-white">
             <div className="max-w-[1440px] mx-auto px-4 md:px-8 flex flex-col items-center">
 
                 {/* Header */}
                 <div className="mb-12">
                     <div className="inline-flex items-center gap-2 border border-white/20 rounded px-4 py-1.5 bg-white/5 backdrop-blur-sm mb-6">
                         <UserCheck size={16} className="text-gray-300" />
-                        <span className="uppercase tracking-wider text-sm text-gray-300">FEEL THE EXPERIENCE</span>
+                        <span className="uppercase tracking-wider text-sm text-gray-300">
+                            FEEL THE EXPERIENCE
+                        </span>
                     </div>
 
                     <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                        Our Major  <span className="text-brand-secondary">Achievements.</span>
+                        Our Major <span className="text-brand-secondary">Achievements</span>
                     </h2>
 
                     <p className="text-gray-400 max-w-xl mx-auto text-lg leading-relaxed">

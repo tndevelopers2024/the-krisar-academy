@@ -32,7 +32,7 @@ const DimensionCard = ({ title, description, mainImage, subImages = [], isRevers
                                 key={index}
                                 src={img}
                                 alt={`${title} detail ${index + 1}`}
-                                className="w-full h- object-cover shadow-md hover:scale-105 transition-transform duration-300"
+                                className="w-full h-40 md:h-48 object-cover rounded-xl shadow-md hover:scale-105 transition-transform duration-300"
                             />
                         ))}
                     </div>

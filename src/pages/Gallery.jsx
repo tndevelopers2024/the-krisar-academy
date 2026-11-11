@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import PageHero from '../components/common/PageHero';
 import SEO from '../components/common/SEO';
 import Button from '../components/ui/Button';
@@ -51,17 +51,14 @@ const Gallery = () => {
     const [viewMode, setViewMode] = useState('grid'); // 'carousel' | 'grid'
     const [selectedVideo, setSelectedVideo] = useState(null);
     const [selectedImage, setSelectedImage] = useState(null);
-    const [displayPhotos, setDisplayPhotos] = useState(photoItems);
-
-    useEffect(() => {
-        // Shuffle photos on mount
+    const [displayPhotos] = useState(() => {
         const shuffled = [...photoItems];
         for (let i = shuffled.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
-        setDisplayPhotos(shuffled);
-    }, []);
+        return shuffled;
+    });
 
     const formattedPhotoData = displayPhotos.map((src, index) => ({
         icon: iconGallery,

@@ -11,6 +11,7 @@ import AcademicExcellence from '../components/sections/home/AcademicExcellence'
 import Management from '../components/sections/home/Management'
 import SuccessStories from '../components/sections/home/SuccessStories'
 import InstagramFeed from '../components/sections/home/InstagramFeed'
+import InstagramReels from '../components/sections/home/InstagramReels'
 import NewsUpdates from '../components/sections/home/NewsUpdates'
 import AdmissionInfo from '../components/sections/home/AdmissionInfo'
 import OperatingHours from '../components/sections/home/OperatingHours'
@@ -37,8 +38,9 @@ const Home = () => {
       <ScrollReveal><SuccessStories /></ScrollReveal>
       <ScrollReveal><OurLocation /></ScrollReveal>
       <ScrollReveal><AdmissionInfo /></ScrollReveal>
-      <ScrollReveal><OperatingHours /></ScrollReveal>
-      <ScrollReveal><InstagramFeed /></ScrollReveal>
+      {/* <ScrollReveal><OperatingHours /></ScrollReveal> */}
+      {/* <ScrollReveal><InstagramFeed /></ScrollReveal> */}
+      <ScrollReveal><InstagramReels /></ScrollReveal>
       <ScrollReveal><NewsUpdates /></ScrollReveal>
     </div>
   )
