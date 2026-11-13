@@ -35,6 +35,10 @@ import blog26 from '../assets/images/facilities/transport.png';
 import blog26Inner from '../assets/images/facilities/medical-facilities.png';
 import blog27 from '../assets/images/home/academic-excellence/academic-curriculum.png';
 import blog27Inner from '../assets/images/facilities/lab-facilities.png';
+import blog28 from '../assets/images/home/academic-excellence/life-skills-teaching.png';
+import blog28Inner from '../assets/images/facilities/ai-robotics-lab.png';
+import blog29 from '../assets/images/home/academic-excellence/academic-approach.png';
+import blog29Inner from '../assets/images/facilities/vedic-maths-lab.png';
 
 // Gallery Images for Blog
 import gallery1 from '../assets/images/gallery/krisar-img-076.jpeg';
@@ -4831,6 +4835,607 @@ export const blogData = [
                     </p>
                     <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
                         When comparing the <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">Best CBSE Schools in Arcot</Link>, parents should consider the quality of teaching, learning opportunities, academic support and the overall development of students, not just examination results.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
+                            Enquire for Admissions 2026-27
+                        </Link>
+                        <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
+                            <span>📞</span> +91 75400 88387
+                        </a>
+                    </div>
+                </section>
+            </>
+        )
+    },
+    {
+        id: 28,
+        slug: "how-project-based-learning-helps-students",
+        title: "How Does Project-Based Learning Help Students Understand Concepts Better?",
+        metaTitle: "Project-Based Learning: How It Benefits Students",
+        metaDescription: "Discover how project-based learning helps children understand concepts, develop critical thinking, improve teamwork and apply classroom knowledge in real-life situations.",
+        date: "November 13, 2026",
+        image: blog28,
+        category: "Education",
+        icon: "BookOpen",
+        description: "Discover how project-based learning helps children understand concepts, develop critical thinking, improve teamwork and apply classroom knowledge in real-life situations.",
+        content: (
+            <>
+                <p className="mb-6 text-xl font-medium leading-relaxed text-brand-secondary">
+                    Learning becomes more interesting when children get opportunities to explore ideas rather than simply read about them. Think about a Science lesson on plants. Students can memorise the parts of a plant from a textbook, but observing a plant, growing seeds and recording their progress can help them understand the topic more clearly.
+                </p>
+                <p className="mb-6 text-lg leading-relaxed text-white">
+                    This is one example of project-based learning, an approach that connects classroom lessons with practical activities.
+                </p>
+                <p className="mb-10 text-lg leading-relaxed text-white">
+                    Parents exploring the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE Schools in Ranipet</Link> may also want to understand how different teaching approaches help children learn beyond textbooks. Project-based learning is one method that encourages students to explore topics, ask questions and apply what they have learned.
+                </p>
+
+                {/* What Exactly Is Project-Based Learning? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">What Exactly Is Project-Based Learning?</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Project-based learning is a teaching approach in which students explore a topic or question by working on a project over a period of time.
+                    </p>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        The project usually involves research, planning, practical activities and presenting what they have discovered.
+                    </p>
+                    <div className="bg-brand-primary/30 p-6 rounded-2xl border border-white/10 mb-6">
+                        <h4 className="text-lg font-bold text-white mb-2 flex items-center gap-2">
+                            <span>🌱</span> Practical Example: Waste Management Investigation
+                        </h4>
+                        <p className="text-base text-white/90 leading-relaxed mb-3">
+                            For example, while learning about environmental pollution, students might investigate waste management in their surroundings. They could identify different types of waste, study their effects and suggest ways to reduce them.
+                        </p>
+                        <p className="text-sm text-brand-secondary font-medium">
+                            Through this activity, students learn about the topic while also practising observation, research and problem-solving.
+                        </p>
+                    </div>
+                    <p className="text-lg leading-relaxed text-white">
+                        The main idea is to help children understand concepts by using them in practical situations.
+                    </p>
+                </div>
+
+                {/* How Does Learning Through Projects Improve Understanding? */}
+                <div className="mb-10">
+                    <h3 className="text-2xl md:text-3xl font-bold mb-4 text-white">
+                        How Does Learning Through Projects Improve Understanding?
+                    </h3>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        When students actively participate in a lesson, they get opportunities to connect new information with what they already know. Here are some ways this approach supports learning:
+                    </p>
+
+                    <div className="space-y-6 mb-8">
+                        {/* 1. Makes Classroom Concepts Easier to Understand */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h4 className="text-2xl font-bold mb-3 text-brand-secondary">1. Makes Classroom Concepts Easier to Understand</h4>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Some subjects can be difficult to understand when they are explained only through written lessons.
+                            </p>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Practical projects give students an opportunity to see how these concepts work.
+                            </p>
+                            <div className="p-4 bg-white/5 rounded-xl border border-white/10">
+                                <p className="text-base text-white/90 leading-relaxed">
+                                    <strong className="text-brand-secondary">Real-world Application:</strong> For example, students learning about measurements in Mathematics could plan a small garden and calculate its length, width and area. This helps them understand how mathematical concepts are used in everyday situations.
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* 2. Encourages Students to Ask Questions */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h4 className="text-2xl font-bold mb-3 text-brand-secondary">2. Encourages Students to Ask Questions</h4>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                A project often begins with a question or a problem that students need to explore.
+                            </p>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                As they work on it, they may come across new information, unexpected results or different ways of approaching the task.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                This encourages them to ask questions, look for explanations and understand a topic beyond what is covered in a textbook. Developing curiosity also makes students more willing to participate in classroom discussions.
+                            </p>
+                        </div>
+
+                        {/* 3. Develops Critical Thinking and Problem-Solving Skills */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h4 className="text-2xl font-bold mb-3 text-brand-secondary">3. Develops Critical Thinking and Problem-Solving Skills</h4>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Projects do not always have one fixed method or solution. Students may need to compare information, identify challenges and decide how to complete their work.
+                            </p>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                For instance, when preparing a model of a water filtration system, students may need to understand the materials required, arrange them correctly and observe how the process works.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                These experiences encourage children to think carefully, test their ideas and learn from mistakes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Inner Image: Practical Project & Laboratory Experience */}
+                <div className="mb-10 rounded-2xl overflow-hidden border border-white/10 shadow-lg">
+                    <img 
+                        src={blog28Inner} 
+                        alt="Robotics and Project-Based Science Laboratory at The Krisar Academy" 
+                        className="w-full h-auto object-cover max-h-[420px]"
+                    />
+                    <div className="p-4 bg-brand-primary/40 text-center text-sm text-white/70 italic border-t border-white/10">
+                        At The Krisar Academy, experiential learning labs and interactive projects enable students to apply theory directly into practice.
+                    </div>
+                </div>
+
+                <div className="space-y-6 mb-10">
+                    {/* 4. Improves Teamwork and Communication */}
+                    <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                        <h4 className="text-2xl font-bold mb-3 text-brand-secondary">4. Improves Teamwork and Communication</h4>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Many classroom projects involve working in small groups.
+                        </p>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Students may share responsibilities, discuss ideas, collect information and prepare presentations together.
+                        </p>
+                        <p className="text-lg leading-relaxed text-white">
+                            During this process, they learn to listen to different opinions, explain their thoughts and work towards a common goal. These experiences can help improve communication, cooperation and confidence.
+                        </p>
+                    </div>
+
+                    {/* 5. Helps Students Remember What They Learn */}
+                    <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                        <h4 className="text-2xl font-bold mb-3 text-brand-secondary">5. Helps Students Remember What They Learn</h4>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Reading and listening are important parts of education, but practical involvement gives students another way to understand information.
+                        </p>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            When children research a topic, create something and explain their findings, they engage with the subject in multiple ways.
+                        </p>
+                        <p className="text-lg leading-relaxed text-white">
+                            This can help them connect different pieces of information and recall what they have learned more effectively.
+                        </p>
+                    </div>
+                </div>
+
+                {/* What Is the Role of Teachers in Project-Based Learning? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">What Is the Role of Teachers in Project-Based Learning?</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Teachers play an important role in guiding students throughout a project.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Their responsibility is not simply to assign an activity and expect students to complete it independently. They help students understand the topic, identify useful resources and organise their work.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white font-medium">
+                        Teachers can support the process by:
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                        {[
+                            "Introducing a clear topic or question.",
+                            "Explaining the concepts students need to understand.",
+                            "Guiding research and practical activities.",
+                            "Encouraging students to share their ideas.",
+                            "Providing feedback during different stages.",
+                            "Helping students reflect on what they have learned."
+                        ].map((point, idx) => (
+                            <div key={idx} className="flex items-center gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary text-lg">✓</span>
+                                <span className="text-white text-base leading-relaxed">{point}</span>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-lg leading-relaxed text-white">
+                        When comparing the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE Schools in Ranipet</Link>, parents can also look at how teachers encourage students to participate in discussions, practical activities and classroom projects.
+                    </p>
+                </div>
+
+                {/* How Can Parents Encourage Project-Based Learning at Home? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">How Can Parents Encourage Project-Based Learning at Home?</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Parents do not need special equipment or complicated activities to encourage practical learning. Everyday experiences can become useful learning opportunities.
+                    </p>
+                    <p className="mb-6 text-lg leading-relaxed text-white font-medium">
+                        Here are a few simple ideas:
+                    </p>
+                    <div className="space-y-4 mb-6">
+                        {[
+                            {
+                                title: "Plan a Small Garden",
+                                desc: "Ask children to grow seeds, observe changes and maintain a simple growth chart."
+                            },
+                            {
+                                title: "Create a Monthly Budget",
+                                desc: "Involve older children in planning a small household or shopping budget to introduce basic financial concepts."
+                            },
+                            {
+                                title: "Explore Local History",
+                                desc: "Encourage children to learn about the history of a nearby place and present their findings."
+                            },
+                            {
+                                title: "Conduct Simple Science Experiments",
+                                desc: "Age-appropriate experiments can help children understand topics such as floating, sinking, evaporation and plant growth."
+                            },
+                            {
+                                title: "Prepare a Reading Project",
+                                desc: "Ask children to read a story, identify its main ideas and create a short presentation or illustrated summary."
+                            }
+                        ].map((item, idx) => (
+                            <div key={idx} className="flex items-start gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary font-bold text-base mt-0.5">{idx + 1}.</span>
+                                <div>
+                                    <strong className="text-brand-secondary text-base block sm:inline mr-2">{item.title}:</strong>
+                                    <span className="text-white text-base leading-relaxed">{item.desc}</span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-lg leading-relaxed text-white">
+                        These activities allow children to practise what they learn while spending meaningful time with their families.
+                    </p>
+                </div>
+
+                {/* Frequently Asked Questions */}
+                <section className="pt-8 border-t border-white/10 mb-12">
+                    <h3 className="text-2xl font-bold mb-8 text-white">Frequently Asked Questions</h3>
+                    <div className="space-y-6">
+                        {[
+                            {
+                                q: "1. Is project-based learning suitable for primary school students?",
+                                a: "Yes. Simple activities such as growing plants, building models and creating picture charts can introduce younger students to practical learning. Projects can become more detailed as children progress through school."
+                            },
+                            {
+                                q: "2. Does project-based learning replace classroom teaching?",
+                                a: "No. It complements regular classroom instruction. Teachers still explain concepts and provide guidance, while projects give students opportunities to apply their knowledge."
+                            },
+                            {
+                                q: "3. How are students assessed during project-based learning?",
+                                a: "Assessment may consider the student's understanding of the topic, research, participation, practical work and final presentation. The exact method depends on the project and the teacher's learning objectives."
+                            },
+                            {
+                                q: "4. Can project-based learning help students who find certain subjects difficult?",
+                                a: "It can provide another way to approach difficult concepts. Practical activities, visual examples and group discussions may help some students understand topics more comfortably."
+                            },
+                            {
+                                q: "5. What is the difference between project-based learning and traditional learning?",
+                                a: "Traditional lessons often focus on explanations, textbooks and exercises. Project-based learning adds an extended activity where students investigate a question and apply their knowledge to complete a project. Both approaches can work together."
+                            }
+                        ].map((faq, idx) => (
+                            <div key={idx} className="p-6 bg-white/5 rounded-2xl border border-white/10">
+                                <h5 className="font-bold text-brand-secondary mb-3 text-lg">{faq.q}</h5>
+                                <p className="text-white/80 leading-relaxed font-light">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                {/* Making Learning More Meaningful */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-12">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">Making Learning More Meaningful</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Education becomes more engaging when students understand how classroom knowledge connects with the world around them. Project-based learning provides opportunities to explore subjects, work with others and approach challenges through practical experiences.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        When parents evaluate the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE Schools in Ranipet</Link>, understanding the school's approach to practical learning can also be useful. Opportunities to explore ideas, work on projects and solve problems help children connect classroom knowledge with everyday experiences.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        The value of a project is not just in the final model or presentation. It is also in the thinking, effort and learning that take place along the way.
+                    </p>
+                </div>
+
+                {/* Final Thoughts & Call to Action */}
+                <section className="bg-brand-secondary p-10 md:p-12 rounded-[2.5rem] text-brand-primary text-center my-12 shadow-xl">
+                    <h3 className="text-3xl font-bold mb-6">Discover Practical Learning at The Krisar Academy</h3>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        At The Krisar Academy, our curriculum brings textbooks to life through hands-on projects, modern labs, and interactive inquiry that prepare students for future academic success.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
+                        When comparing the <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">Best CBSE Schools in Ranipet</Link>, experience our child-centric environment and visit our campus today.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
+                            Enquire for Admissions 2026-27
+                        </Link>
+                        <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
+                            <span>📞</span> +91 75400 88387
+                        </a>
+                    </div>
+                </section>
+            </>
+        )
+    },
+    {
+        id: 29,
+        slug: "how-to-help-children-overcome-fear-of-mathematics",
+        title: "How to Help Children Overcome the Fear of Mathematics",
+        metaTitle: "Help Children Overcome Maths Anxiety | Parent's Guide",
+        metaDescription: "Discover practical ways to help children overcome the fear of mathematics, improve problem-solving skills and build confidence through everyday learning.",
+        date: "November 13, 2026",
+        image: blog29,
+        category: "Education",
+        icon: "BookOpen",
+        description: "Discover practical ways to help children overcome the fear of mathematics, improve problem-solving skills and build confidence through everyday learning.",
+        content: (
+            <>
+                <p className="mb-6 text-xl font-medium leading-relaxed text-brand-secondary">
+                    Mathematics is a subject that many children find challenging. While some enjoy solving problems, others feel nervous as soon as they see numbers, formulas or calculations. This fear can affect their classroom participation, confidence and overall interest in learning.
+                </p>
+                <p className="mb-6 text-lg leading-relaxed text-white">
+                    However, struggling with mathematics does not mean a child is poor at the subject. In many cases, the fear develops because of difficulty understanding basic concepts, pressure to score high marks or a lack of confidence when solving problems.
+                </p>
+                <p className="mb-10 text-lg leading-relaxed text-white">
+                    With the right guidance, encouragement and regular practice, children can gradually overcome this fear. Parents and teachers both play an important role in helping students develop a positive attitude towards mathematics.
+                </p>
+
+                {/* Why Do Children Develop a Fear of Mathematics? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">Why Do Children Develop a Fear of Mathematics?</h3>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        Before helping children overcome their fear, it is important to understand what causes it. Some common reasons include:
+                    </p>
+                    <div className="space-y-4 mb-2">
+                        {[
+                            {
+                                title: "1. Difficulty Understanding Basic Concepts",
+                                desc: "Mathematics is a subject where one concept often builds on another. If a child does not understand basic operations such as addition, subtraction, multiplication or division, they may find advanced topics difficult."
+                            },
+                            {
+                                title: "2. Fear of Making Mistakes",
+                                desc: "Some children hesitate to solve problems because they are afraid of giving incorrect answers. This fear can prevent them from asking questions or participating in classroom activities."
+                            },
+                            {
+                                title: "3. Academic Pressure",
+                                desc: "Expectations to score high marks, complete assignments quickly or perform better than classmates can create unnecessary pressure. Children may start associating mathematics with stress instead of learning."
+                            },
+                            {
+                                title: "4. Lack of Regular Practice",
+                                desc: "Mathematics requires consistent practice. When children do not revise what they learn in class, they may gradually lose confidence in solving problems."
+                            },
+                            {
+                                title: "5. Comparing Children with Others",
+                                desc: "Every child learns at a different pace. Comparing one child's mathematical ability with another can make them feel less capable and reduce their interest in the subject."
+                            }
+                        ].map((item, idx) => (
+                            <div key={idx} className="p-5 bg-white/5 rounded-2xl border border-white/10">
+                                <h4 className="text-lg font-bold text-brand-secondary mb-2">{item.title}</h4>
+                                <p className="text-white text-base leading-relaxed">{item.desc}</p>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                {/* 7 Practical Ways to Help Children Overcome the Fear of Mathematics */}
+                <div className="mb-10">
+                    <h3 className="text-2xl md:text-3xl font-bold mb-4 text-white">
+                        7 Practical Ways to Help Children Overcome the Fear of Mathematics
+                    </h3>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        Parents can introduce simple changes at home to make mathematics easier and more enjoyable.
+                    </p>
+
+                    <div className="space-y-6 mb-8">
+                        {/* 1. Strengthen Their Basic Mathematical Skills */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h4 className="text-2xl font-bold mb-3 text-brand-secondary">1. Strengthen Their Basic Mathematical Skills</h4>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Start by identifying the areas where your child faces difficulty. Instead of moving directly to complicated problems, help them revise the basics.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                For example, if multiplication is difficult, spend time practising multiplication tables and simple calculations. A strong understanding of fundamentals makes it easier for children to learn advanced concepts.
+                            </p>
+                        </div>
+
+                        {/* 2. Connect Mathematics with Everyday Activities */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h4 className="text-2xl font-bold mb-3 text-brand-secondary">2. Connect Mathematics with Everyday Activities</h4>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Children understand concepts better when they see how those concepts are used in everyday life.
+                            </p>
+                            <p className="mb-4 text-lg leading-relaxed text-white font-medium">
+                                Parents can introduce mathematics through simple activities such as:
+                            </p>
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                                {[
+                                    "Asking children to calculate the total while shopping.",
+                                    "Measuring ingredients while preparing food.",
+                                    "Counting objects at home.",
+                                    "Calculating time taken to complete daily activities.",
+                                    "Dividing snacks equally among family members."
+                                ].map((act, idx) => (
+                                    <div key={idx} className="flex items-center gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                        <span className="text-brand-secondary text-lg">✓</span>
+                                        <span className="text-white text-base leading-relaxed">{act}</span>
+                                    </div>
+                                ))}
+                            </div>
+                            <p className="text-lg leading-relaxed text-white">
+                                These activities help children understand that mathematics is not limited to textbooks and examinations.
+                            </p>
+                        </div>
+
+                        {/* 3. Make Learning Interactive and Interesting */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h4 className="text-2xl font-bold mb-3 text-brand-secondary">3. Make Learning Interactive and Interesting</h4>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Learning does not always have to involve textbooks and written exercises. Use number games, puzzles, flashcards and simple challenges to make mathematics more engaging.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                For younger children, objects such as blocks, beads and toys can help explain counting, addition and subtraction. Visual learning activities can make abstract concepts easier to understand.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Inner Image: Vedic Maths Lab & Hands-on Math Environment */}
+                <div className="mb-10 rounded-2xl overflow-hidden border border-white/10 shadow-lg">
+                    <img 
+                        src={blog29Inner} 
+                        alt="Vedic Maths Lab and Hands-on Numerical Calculation at The Krisar Academy" 
+                        className="w-full h-auto object-cover max-h-[420px]"
+                    />
+                    <div className="p-4 bg-brand-primary/40 text-center text-sm text-white/70 italic border-t border-white/10">
+                        At The Krisar Academy, our specialized Vedic Maths lab and interactive learning tools make calculations intuitive, engaging, and enjoyable.
+                    </div>
+                </div>
+
+                <div className="space-y-6 mb-10">
+                    {/* 4. Encourage Questions Without Hesitation */}
+                    <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                        <h4 className="text-2xl font-bold mb-3 text-brand-secondary">4. Encourage Questions Without Hesitation</h4>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Let children know that asking questions is a normal part of learning. If they do not understand a particular concept, encourage them to ask their teacher or parent for clarification.
+                        </p>
+                        <p className="text-lg leading-relaxed text-white">
+                            Avoid making them feel embarrassed about their doubts. A comfortable learning environment helps children become more confident and willing to explore new concepts.
+                        </p>
+                    </div>
+
+                    {/* 5. Avoid Putting Pressure on Speed */}
+                    <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                        <h4 className="text-2xl font-bold mb-3 text-brand-secondary">5. Avoid Putting Pressure on Speed</h4>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Not every child can solve mathematical problems quickly. Some students need more time to understand a question and work towards the answer.
+                        </p>
+                        <p className="text-lg leading-relaxed text-white">
+                            Focus on accuracy and understanding before speed. Give children enough time to think through each problem rather than expecting them to complete everything immediately.
+                        </p>
+                    </div>
+
+                    {/* 6. Appreciate Small Improvements */}
+                    <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                        <h4 className="text-2xl font-bold mb-3 text-brand-secondary">6. Appreciate Small Improvements</h4>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Recognising small achievements can motivate children to keep learning. Appreciate their effort when they understand a new concept, solve a difficult problem or complete an exercise independently.
+                        </p>
+                        <p className="text-lg leading-relaxed text-white">
+                            Instead of focusing only on marks, encourage the progress they make along the way. This helps build confidence and reduces the fear of failure.
+                        </p>
+                    </div>
+
+                    {/* 7. Follow a Consistent Practice Routine */}
+                    <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                        <h4 className="text-2xl font-bold mb-3 text-brand-secondary">7. Follow a Consistent Practice Routine</h4>
+                        <p className="mb-4 text-lg leading-relaxed text-white">
+                            Short and regular practice sessions are often more effective than studying mathematics for long hours at once.
+                        </p>
+                        <p className="text-lg leading-relaxed text-white">
+                            Set aside 15–20 minutes each day for revision and problem-solving, depending on the child's age and learning needs. Regular practice helps children become familiar with different types of questions and improves their confidence over time.
+                        </p>
+                    </div>
+                </div>
+
+                {/* How Teachers Can Make Mathematics Easier for Students */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">How Teachers Can Make Mathematics Easier for Students</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Teachers have an important role in shaping how children feel about mathematics. A supportive classroom environment can help students overcome hesitation and develop an interest in the subject.
+                    </p>
+                    <p className="mb-6 text-lg leading-relaxed text-white font-medium">
+                        Some effective teaching approaches include:
+                    </p>
+                    <div className="space-y-3 mb-6">
+                        {[
+                            {
+                                title: "Using real-life examples",
+                                desc: "Connecting mathematical concepts with familiar situations helps students understand their practical applications."
+                            },
+                            {
+                                title: "Encouraging classroom participation",
+                                desc: "Giving every student opportunities to solve problems and share their answers builds confidence."
+                            },
+                            {
+                                title: "Explaining concepts step by step",
+                                desc: "Breaking difficult topics into smaller parts makes them easier to understand."
+                            },
+                            {
+                                title: "Using activity-based learning",
+                                desc: "Games, puzzles and group activities can make mathematics more engaging."
+                            },
+                            {
+                                title: "Providing individual attention",
+                                desc: "Understanding each student's learning difficulties helps teachers offer the right support."
+                            }
+                        ].map((point, idx) => (
+                            <div key={idx} className="flex items-start gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary font-bold text-lg mt-0.5">✓</span>
+                                <div>
+                                    <strong className="text-brand-secondary text-base block sm:inline mr-2">{point.title}:</strong>
+                                    <span className="text-white text-base leading-relaxed">{point.desc}</span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-lg leading-relaxed text-white">
+                        When children feel comfortable asking questions and making mistakes, they become more active participants in the learning process.
+                    </p>
+                </div>
+
+                {/* The Importance of Choosing the Right Learning Environment */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">The Importance of Choosing the Right Learning Environment</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        A child's attitude towards mathematics is influenced not only by their individual effort but also by the environment in which they learn.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        A good school encourages students to understand concepts instead of simply memorising formulas. Teachers who explain topics clearly, encourage questions and provide opportunities for practical learning can help children develop stronger mathematical skills.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Parents looking for a <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">CBSE school in Walajapet</Link> should consider how the school supports conceptual understanding, classroom participation and individual learning needs.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        The right learning environment helps children approach challenging subjects with curiosity rather than fear.
+                    </p>
+                </div>
+
+                {/* Frequently Asked Questions */}
+                <section className="pt-8 border-t border-white/10 mb-12">
+                    <h3 className="text-2xl font-bold mb-8 text-white">Frequently Asked Questions</h3>
+                    <div className="space-y-6">
+                        {[
+                            {
+                                q: "1. Why is my child afraid of mathematics?",
+                                a: "Children may fear mathematics because of difficulty understanding basic concepts, academic pressure, fear of making mistakes or a lack of regular practice. Identifying the reason can help parents provide the right support."
+                            },
+                            {
+                                q: "2. How can I improve my child's interest in mathematics?",
+                                a: "Introduce mathematics through everyday activities, puzzles, games and practical examples. Encourage regular practice and appreciate your child's efforts rather than focusing only on marks."
+                            },
+                            {
+                                q: "3. How much time should children spend practising mathematics daily?",
+                                a: "A short, consistent practice routine of around 15–20 minutes can be a useful starting point. The duration can be adjusted based on the child's age, schoolwork and learning needs."
+                            },
+                            {
+                                q: "4. Should parents help children with mathematics homework?",
+                                a: "Yes. Parents can guide children when they face difficulties, explain basic concepts and encourage independent problem-solving. However, avoid giving them the answers directly. Allow children to try and learn at their own pace."
+                            }
+                        ].map((faq, idx) => (
+                            <div key={idx} className="p-6 bg-white/5 rounded-2xl border border-white/10">
+                                <h5 className="font-bold text-brand-secondary mb-3 text-lg">{faq.q}</h5>
+                                <p className="text-white/80 leading-relaxed font-light">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                {/* Building Confidence One Problem at a Time */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-12">
+                    <h3 className="text-2xl font-bold mb-4 text-brand-secondary">Building Confidence One Problem at a Time</h3>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Overcoming the fear of mathematics takes patience, encouragement and consistent effort. Children should understand that making mistakes is part of learning and that every difficult problem is an opportunity to improve.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        When parents and teachers work together to create a supportive learning environment, children can gradually develop confidence in their mathematical abilities.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        The goal is not just to help children score better marks but to help them understand concepts, think logically and enjoy the process of learning. For parents exploring a <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">CBSE school in Walajapet</Link>, choosing an environment that values clear explanations, practical learning and student confidence can make a meaningful difference in a child's academic journey.
+                    </p>
+                </div>
+
+                {/* Final Thoughts & Call to Action */}
+                <section className="bg-brand-secondary p-10 md:p-12 rounded-[2.5rem] text-brand-primary text-center my-12 shadow-xl">
+                    <h3 className="text-3xl font-bold mb-6">Discover Concept-Driven Learning at The Krisar Academy</h3>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        At The Krisar Academy, our specialized Vedic Maths lab, hands-on learning methods, and dedicated faculty help students conquer maths anxiety and develop lifelong logical thinking.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
+                        If you are looking for the leading <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">CBSE school in Walajapet</Link> and surrounding regions, visit our campus to see how we make mathematics joyful.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
