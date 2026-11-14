@@ -159,6 +159,30 @@ const handleEmailRequest = async (req, res) => {
                     </div>
                 </div>
             `;
+        } else if (type === 'scholarship' || type === 'scholarship_registration') {
+            subject = `New Scholarship Exam Registration: ${data.name || 'Candidate'}`;
+            htmlContent = `
+                <div style="${styles.container}">
+                    <div style="${styles.header}">
+                        <h1 style="${styles.headerTitle}">Scholarship <span style="color: #FFC107;">Registration</span></h1>
+                    </div>
+                    
+                    <div style="${styles.content}">
+                        <h2 style="${styles.sectionTitle}">Candidate Details</h2>
+                        ${getFieldHtml('Student Name', data.name)}
+                        ${getFieldHtml('Contact Number', data.contactNumber)}
+                        ${getFieldHtml('Area / Location', data.area)}
+                        
+                        <div style="margin-top: 20px; padding: 12px; background-color: #fffbeb; border-left: 4px solid #FFC107; border-radius: 4px; color: #92400e; font-size: 13px;">
+                            <strong>Event:</strong> District Level Merit Scholarship Examination 2026<br/>
+                            <strong>Target Grades:</strong> Grades V – X
+                        </div>
+                    </div>
+                    <div style="${styles.footer}">
+                        &copy; ${new Date().getFullYear()} The Krisar Academy. All rights reserved.
+                    </div>
+                </div>
+            `;
         } else {
             console.warn(`Invalid form type: ${type}`);
             return res.status(400).json({ message: `Invalid form type: ${type}` });
@@ -169,7 +193,7 @@ const handleEmailRequest = async (req, res) => {
             to: receiverEmail,
             subject: subject,
             html: htmlContent,
-            replyTo: data.email || data.emailId || data.parentEmail
+            replyTo: data.email || data.emailId || data.parentEmail || process.env.SMTP_USER
         });
 
         return res.status(200).json({ message: 'Email sent successfully' });
