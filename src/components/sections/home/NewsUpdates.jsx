@@ -1,6 +1,5 @@
 import React from 'react';
 import { Trophy, Newspaper } from 'lucide-react';
-import Button from '../../ui/Button';
 import { blogData } from '../../../data/blogData.jsx';
 import { Link } from 'react-router-dom';
 
@@ -36,9 +35,10 @@ const NewsUpdates = () => {
                 {/* News Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-7xl mx-auto">
                     {newsItems.map((item) => (
-                        <div
+                        <Link
+                            to={`/blogs/${item.slug}`}
                             key={item.id}
-                            className="group h-full bg-[#151E38]/50 border border-white/10 rounded-xl overflow-hidden hover:border-brand-secondary/50 transition-all duration-300 flex flex-col"
+                            className="group h-full bg-[#151E38]/50 border border-white/10 rounded-xl overflow-hidden hover:border-brand-secondary/50 transition-all duration-300 flex flex-col cursor-pointer"
                         >
                             {/* Image Container */}
                             <div className="relative h-64 overflow-hidden">
@@ -61,9 +61,11 @@ const NewsUpdates = () => {
                                 </h3>
                                 <p className="text-white/80 text-sm mb-6 line-clamp-2">{item.description}</p>
 
-                                <Button to={`/blogs/${item.slug}`} className="w-full">Know More</Button>
+                                <div className="w-full font-bold px-6 py-3 md:px-4 md:py-2 text-sm md:text-lg rounded bg-brand-secondary text-brand-primary inline-flex items-center justify-center border-none transition-all whitespace-nowrap group-hover:brightness-105">
+                                    Know More
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     ))}
                 </div>
 

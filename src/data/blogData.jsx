@@ -39,6 +39,12 @@ import blog28 from '../assets/images/home/academic-excellence/life-skills-teachi
 import blog28Inner from '../assets/images/facilities/ai-robotics-lab.png';
 import blog29 from '../assets/images/home/academic-excellence/academic-approach.png';
 import blog29Inner from '../assets/images/facilities/vedic-maths-lab.png';
+import blog30 from '../assets/images/home/academic-excellence/primary-school.png';
+import blog30Inner from '../assets/images/facilities/computer-lab.png';
+import blog31 from '../assets/images/home/academic-excellence/kindergarten.png';
+import blog31Inner from '../assets/images/home/academic-excellence/beyond-academics.png';
+import blog32 from '../assets/images/facilities/modern-library.png';
+import blog32Inner from '../assets/images/gallery/krisar-img-048.jpeg';
 
 // Gallery Images for Blog
 import gallery1 from '../assets/images/gallery/krisar-img-076.jpeg';
@@ -5436,6 +5442,945 @@ export const blogData = [
                     </p>
                     <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
                         If you are looking for the leading <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">CBSE school in Walajapet</Link> and surrounding regions, visit our campus to see how we make mathematics joyful.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
+                            Enquire for Admissions 2026-27
+                        </Link>
+                        <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
+                            <span>📞</span> +91 75400 88387
+                        </a>
+                    </div>
+                </section>
+            </>
+        )
+    },
+    {
+        id: 30,
+        slug: "how-to-develop-critical-thinking-skills-in-children",
+        title: "How to Develop Critical Thinking Skills in Children: A Guide for Parents",
+        metaTitle: "How to Develop Critical Thinking Skills in Children",
+        metaDescription: "Learn simple ways parents and teachers can develop critical thinking skills in children through everyday activities, discussions and practical learning.",
+        date: "November 21, 2026",
+        image: blog30,
+        category: "Education",
+        icon: "BookOpen",
+        description: "Learn simple ways parents and teachers can develop critical thinking skills in children through everyday activities, discussions and practical learning.",
+        content: (
+            <>
+                <p className="mb-6 text-xl font-medium leading-relaxed text-brand-secondary">
+                    Children are naturally curious. They ask questions, observe the world around them and try to understand how things work. These everyday experiences are the starting point of critical thinking.
+                </p>
+                <p className="mb-6 text-lg leading-relaxed text-white">
+                    Critical thinking is the ability to understand information, ask meaningful questions, analyse situations and make decisions based on reasoning. It helps children move beyond memorising facts and develop the confidence to think independently.
+                </p>
+                <p className="mb-10 text-lg leading-relaxed text-white">
+                    In today's learning environment, developing this skill is just as important as academic knowledge. Parents and teachers can work together to encourage children to question, explore and find solutions instead of simply accepting information.
+                </p>
+
+                {/* H2: What Is Critical Thinking in Children? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">What Is Critical Thinking in Children?</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Critical thinking is not about finding fault or questioning everything. It is about helping children understand information, consider different possibilities and arrive at logical conclusions.
+                    </p>
+                    <div className="bg-brand-primary/30 p-6 rounded-2xl border border-white/10 mb-6">
+                        <h4 className="text-lg font-bold text-white mb-2 flex items-center gap-2">
+                            <span>🌱</span> Example of Critical Inquiry
+                        </h4>
+                        <p className="text-base text-white/90 leading-relaxed mb-3">
+                            When a child asks why plants need sunlight, they are showing curiosity. When they observe how a plant grows in sunlight compared to one kept in a dark place, they begin analysing information and understanding the reason behind it.
+                        </p>
+                        <p className="text-sm text-brand-secondary font-medium">
+                            These small experiences help children develop independent thinking skills that are useful both inside and outside the classroom.
+                        </p>
+                    </div>
+                </div>
+
+                {/* H2: Why Are Critical Thinking Skills Important for Children? */}
+                <div className="mb-10">
+                    <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">
+                        Why Are Critical Thinking Skills Important for Children?
+                    </h2>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        Developing critical thinking skills from an early age can support a child's academic and personal growth in several ways.
+                    </p>
+
+                    <div className="space-y-6 mb-8">
+                        {/* H3: Improves Problem-Solving Ability */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">Improves Problem-Solving Ability</h3>
+                            <p className="text-lg leading-relaxed text-white">
+                                Children learn to look at challenges from different perspectives and explore possible solutions. Instead of giving up when something goes wrong, they become more confident in finding ways to solve problems.
+                            </p>
+                        </div>
+
+                        {/* H3: Encourages Independent Learning */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">Encourages Independent Learning</h3>
+                            <p className="text-lg leading-relaxed text-white">
+                                When children are encouraged to think for themselves, they become more interested in understanding topics rather than simply memorising information. This helps them take greater responsibility for their learning.
+                            </p>
+                        </div>
+
+                        {/* H3: Builds Decision-Making Skills */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">Builds Decision-Making Skills</h3>
+                            <p className="text-lg leading-relaxed text-white">
+                                Everyday situations give children opportunities to make choices. Thinking about the possible outcomes of their decisions helps them understand responsibility and develop better judgement.
+                            </p>
+                        </div>
+
+                        {/* H3: Develops Curiosity and Creativity */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">Develops Curiosity and Creativity</h3>
+                            <p className="text-lg leading-relaxed text-white">
+                                Critical thinking encourages children to ask questions, explore new ideas and look at familiar situations differently. This supports creativity and a willingness to learn.
+                            </p>
+                        </div>
+
+                        {/* H3: Builds Confidence in Communication */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">Builds Confidence in Communication</h3>
+                            <p className="text-lg leading-relaxed text-white">
+                                Children who can organise their thoughts and explain their reasoning often become more comfortable sharing their ideas. They also learn to listen to different opinions and participate in discussions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Inner Image: Innovation & Interactive School Labs */}
+                <div className="mb-10 rounded-2xl overflow-hidden border border-white/10 shadow-lg">
+                    <img 
+                        src={blog30Inner} 
+                        alt="Collaborative Problem-Solving and Technology Labs at The Krisar Academy" 
+                        className="w-full h-auto object-cover max-h-[420px]"
+                    />
+                    <div className="p-4 bg-brand-primary/40 text-center text-sm text-white/70 italic border-t border-white/10">
+                        At The Krisar Academy, inquiry-based teaching and modern computer labs encourage students to analyse, evaluate, and develop independent solutions.
+                    </div>
+                </div>
+
+                {/* H2: 7 Simple Ways Parents Can Develop Critical Thinking Skills at Home */}
+                <div className="mb-10">
+                    <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">
+                        7 Simple Ways Parents Can Develop Critical Thinking Skills at Home
+                    </h2>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        Parents do not need special equipment or complicated activities to encourage critical thinking. Simple everyday interactions can make a difference.
+                    </p>
+
+                    <div className="space-y-6 mb-8">
+                        {/* H3: Encourage Children to Ask Questions */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">1. Encourage Children to Ask Questions</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Give children the freedom to ask questions about things they see and experience. Instead of immediately providing an answer, encourage them to think about possible explanations.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Questions such as "Why do you think this happened?" or "What could we do differently?" help children explore ideas independently.
+                            </p>
+                        </div>
+
+                        {/* H3: Read Stories and Discuss Them */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">2. Read Stories and Discuss Them</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Reading stories together is a simple way to develop thinking skills. After reading a story, ask children what they think about the characters, why someone made a particular decision or how the story could have ended differently.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                This helps them understand situations, consider different viewpoints and express their thoughts.
+                            </p>
+                        </div>
+
+                        {/* H3: Introduce Puzzles and Brain Games */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">3. Introduce Puzzles and Brain Games</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Puzzles, building blocks, chess and age-appropriate strategy games encourage children to observe, plan and find solutions.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                These activities also teach children that solving a challenge may require patience and more than one attempt.
+                            </p>
+                        </div>
+
+                        {/* H3: Involve Children in Everyday Decisions */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">4. Involve Children in Everyday Decisions</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Allow children to make small decisions at home. They can help plan a family activity, organise their study schedule or choose what they need for a school project.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Discussing the reasons behind their choices helps them understand how to evaluate options.
+                            </p>
+                        </div>
+
+                        {/* H3: Encourage Hands-On Activities */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">5. Encourage Hands-On Activities</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Activities such as gardening, simple experiments, craft projects and model-making give children opportunities to observe and learn through experience.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                For example, growing a plant allows children to notice changes, ask questions and understand the importance of water, sunlight and care.
+                            </p>
+                        </div>
+
+                        {/* H3: Let Children Learn from Mistakes */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">6. Let Children Learn from Mistakes</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Avoid correcting every mistake immediately. Give children time to understand what went wrong and think about how they can improve.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                When children see mistakes as opportunities to learn, they become more willing to try unfamiliar tasks and explore different solutions.
+                            </p>
+                        </div>
+
+                        {/* H3: Discuss Different Points of View */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">7. Discuss Different Points of View</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Talk about everyday situations and encourage children to consider how different people might think or feel.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                For example, while discussing a story or a classroom situation, ask what another person could have done differently. This helps children develop reasoning skills and understand different perspectives.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* H2: How Schools Can Encourage Critical Thinking in Students */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">How Schools Can Encourage Critical Thinking in Students</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Schools play an important role in helping children develop the ability to think independently. Learning should not be limited to listening to lessons and memorising textbook answers.
+                    </p>
+                    <p className="mb-6 text-lg leading-relaxed text-white font-medium">
+                        Teachers can encourage critical thinking through:
+                    </p>
+                    <div className="space-y-3 mb-6">
+                        {[
+                            {
+                                title: "Classroom discussions",
+                                desc: "Giving students opportunities to share opinions, explain answers and ask questions."
+                            },
+                            {
+                                title: "Activity-based learning",
+                                desc: "Using practical activities to help children understand concepts through experience."
+                            },
+                            {
+                                title: "Group projects",
+                                desc: "Encouraging students to work together, exchange ideas and solve problems."
+                            },
+                            {
+                                title: "Question based learning",
+                                desc: "Asking open-ended questions that encourage students to think beyond direct textbook answers."
+                            },
+                            {
+                                title: "Real life examples",
+                                desc: "Connecting classroom lessons with situations children encounter in everyday life."
+                            }
+                        ].map((point, idx) => (
+                            <div key={idx} className="flex items-start gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary font-bold text-lg mt-0.5">✓</span>
+                                <div>
+                                    <strong className="text-brand-secondary text-base block sm:inline mr-2">{point.title}:</strong>
+                                    <span className="text-white text-base leading-relaxed">{point.desc}</span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-lg leading-relaxed text-white">
+                        A supportive classroom environment helps students feel comfortable expressing their ideas and learning from one another.
+                    </p>
+                </div>
+
+                {/* H2: Choosing a School That Encourages Independent Thinking */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">Choosing a School That Encourages Independent Thinking</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        A child's learning environment can influence how they approach challenges and new information. Parents should look beyond academic results and understand how a school supports curiosity, creativity and independent learning.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        When exploring a <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">CBSE school in Walajapet</Link>, parents can consider whether the school encourages classroom participation, practical activities, group learning and opportunities for students to express their ideas.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        A learning environment that values understanding alongside academic performance can help children develop skills that support them throughout their education.
+                    </p>
+                </div>
+
+                {/* H2: Frequently Asked Questions */}
+                <section className="pt-8 border-t border-white/10 mb-12">
+                    <h2 className="text-2xl font-bold mb-8 text-white">Frequently Asked Questions</h2>
+                    <div className="space-y-6">
+                        {[
+                            {
+                                q: "1. At what age should children start developing critical thinking skills?",
+                                a: "Children begin developing thinking skills from an early age through observation, play and everyday experiences. Parents can encourage these skills through simple questions, stories and age-appropriate activities."
+                            },
+                            {
+                                q: "2. What activities improve critical thinking in children?",
+                                a: "Puzzles, storytelling, board games, simple science experiments, building activities and group discussions can help children improve their reasoning and problem-solving abilities."
+                            },
+                            {
+                                q: "3. How can parents encourage independent thinking?",
+                                a: "Parents can encourage children to ask questions, make small decisions, explain their ideas and try solving problems independently. Giving them time to think is equally important."
+                            },
+                            {
+                                q: "4. Why is critical thinking important in school education?",
+                                a: "Critical thinking helps students understand concepts, analyse information, solve problems and make informed decisions. It also encourages active participation in the learning process."
+                            }
+                        ].map((faq, idx) => (
+                            <div key={idx} className="p-6 bg-white/5 rounded-2xl border border-white/10">
+                                <h3 className="font-bold text-brand-secondary mb-3 text-lg">{faq.q}</h3>
+                                <p className="text-white/80 leading-relaxed font-light">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                {/* H2: Helping Children Become Confident Thinkers */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-12">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">Helping Children Become Confident Thinkers</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Critical thinking develops through everyday experiences, meaningful conversations and opportunities to explore new ideas. Children need an environment where they feel comfortable asking questions, making mistakes and finding their own solutions.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        When parents and teachers encourage curiosity and independent thinking, children become more confident in approaching challenges. These skills support not only their academic progress but also their ability to make thoughtful decisions as they grow.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        For parents considering a <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">CBSE school in Walajapet</Link>, looking for a school that encourages curiosity, practical learning and independent thinking can be an important part of choosing the right educational environment.
+                    </p>
+                </div>
+
+                {/* Final Thoughts & Call to Action */}
+                <section className="bg-brand-secondary p-10 md:p-12 rounded-[2.5rem] text-brand-primary text-center my-12 shadow-xl">
+                    <h3 className="text-3xl font-bold mb-6">Encourage Independent Thinking at The Krisar Academy</h3>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        At The Krisar Academy, our holistic curriculum prioritises inquiry-driven learning, creative exploration, and critical reasoning to prepare children for lifelong leadership.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
+                        If you are searching for the leading <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">CBSE school in Walajapet</Link> and Ranipet District, visit our campus to see our student-centric approach in action.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
+                            Enquire for Admissions 2026-27
+                        </Link>
+                        <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
+                            <span>📞</span> +91 75400 88387
+                        </a>
+                    </div>
+                </section>
+            </>
+        )
+    },
+    {
+        id: 31,
+        slug: "how-to-help-your-child-adjust-to-a-new-school",
+        title: "How to Help Your Child Adjust to a New School",
+        metaTitle: "How to Help Your Child Adjust to a New School",
+        metaDescription: "Learn how to help your child adjust to a new school with practical tips for building friendships, managing school anxiety and feeling comfortable in a new environment.",
+        date: "November 21, 2026",
+        image: blog31,
+        category: "Education",
+        icon: "BookOpen",
+        description: "Learn how to help your child adjust to a new school with practical tips for building friendships, managing school anxiety and feeling comfortable in a new environment.",
+        content: (
+            <>
+                <p className="mb-6 text-xl font-medium leading-relaxed text-brand-secondary">
+                    Starting at a new school can be an exciting experience for children, but it can also bring uncertainty and nervousness. A new classroom, unfamiliar teachers, different classmates and a changed daily routine can take time to get used to.
+                </p>
+                <p className="mb-6 text-lg leading-relaxed text-white">
+                    Some children quickly become comfortable in their new surroundings, while others may take a few weeks or even months to feel settled. They might hesitate to speak to classmates, feel nervous about going to school or become less interested in their usual activities.
+                </p>
+                <p className="mb-10 text-lg leading-relaxed text-white">
+                    These reactions are common during a period of change. With patience, encouragement and the right support, parents can help children feel more comfortable and confident. If you are exploring the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE Schools in Arcot</Link>, it is also worth understanding how a school supports children during their transition into a new learning environment.
+                </p>
+
+                {/* H2: Why Do Children Find It Difficult to Adjust to a New School? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">Why Do Children Find It Difficult to Adjust to a New School?</h2>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        Every child responds differently to change. Understanding what makes the transition difficult can help parents provide the right support. Some common reasons include:
+                    </p>
+
+                    <div className="space-y-4">
+                        {/* H3: Leaving Familiar Friends and Teachers */}
+                        <div className="p-5 bg-white/5 rounded-2xl border border-white/10">
+                            <h3 className="text-lg font-bold text-brand-secondary mb-2">1. Leaving Familiar Friends and Teachers</h3>
+                            <p className="text-white text-base leading-relaxed">
+                                Children who change schools may miss their old classmates, teachers and familiar surroundings. Building new relationships can take time, especially for children who are naturally shy.
+                            </p>
+                        </div>
+
+                        {/* H3: Adjusting to a New Environment */}
+                        <div className="p-5 bg-white/5 rounded-2xl border border-white/10">
+                            <h3 className="text-lg font-bold text-brand-secondary mb-2">2. Adjusting to a New Environment</h3>
+                            <p className="text-white text-base leading-relaxed">
+                                A different classroom, school campus, timetable and set of rules can feel unfamiliar. Children may need time to understand how things work in their new school.
+                            </p>
+                        </div>
+
+                        {/* H3: Fear of Making New Friends */}
+                        <div className="p-5 bg-white/5 rounded-2xl border border-white/10">
+                            <h3 className="text-lg font-bold text-brand-secondary mb-2">3. Fear of Making New Friends</h3>
+                            <p className="text-white text-base leading-relaxed">
+                                Some children worry about whether other students will accept them. They may feel uncomfortable starting conversations or joining group activities.
+                            </p>
+                        </div>
+
+                        {/* H3: Changes in Learning Methods */}
+                        <div className="p-5 bg-white/5 rounded-2xl border border-white/10">
+                            <h3 className="text-lg font-bold text-brand-secondary mb-2">4. Changes in Learning Methods</h3>
+                            <p className="text-white text-base leading-relaxed">
+                                Different schools may follow different teaching approaches, classroom routines and assessment patterns. Children might need time to understand these expectations and adjust to them.
+                            </p>
+                        </div>
+
+                        {/* H3: Separation Anxiety */}
+                        <div className="p-5 bg-white/5 rounded-2xl border border-white/10">
+                            <h3 className="text-lg font-bold text-brand-secondary mb-2">5. Separation Anxiety</h3>
+                            <p className="text-white text-base leading-relaxed">
+                                Younger children, particularly those entering school for the first time, may find it difficult to stay away from their parents. They may cry, become anxious or ask to stay at home.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Inner Image: Welcoming Campus Life & Activity Participation */}
+                <div className="mb-10 rounded-2xl overflow-hidden border border-white/10 shadow-lg">
+                    <img 
+                        src={blog31Inner} 
+                        alt="Friendly Campus Life and Collaborative Peer Learning at The Krisar Academy" 
+                        className="w-full h-auto object-cover max-h-[420px]"
+                    />
+                    <div className="p-4 bg-brand-primary/40 text-center text-sm text-white/70 italic border-t border-white/10">
+                        At The Krisar Academy, inclusive classrooms and cooperative group activities help new students form fast friendships and feel right at home.
+                    </div>
+                </div>
+
+                {/* H2: 7 Ways Parents Can Help Their Child Adjust to a New School */}
+                <div className="mb-10">
+                    <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">
+                        7 Ways Parents Can Help Their Child Adjust to a New School
+                    </h2>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        Parents can make the transition easier by creating a positive experience and giving children enough time to settle into their new surroundings.
+                    </p>
+
+                    <div className="space-y-6 mb-8">
+                        {/* H3: Talk About the New School Positively */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">1. Talk About the New School Positively</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Before your child joins the school, talk about the new experiences they can look forward to. Tell them about making friends, learning interesting subjects and participating in activities.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Avoid making promises about everything being perfect. Instead, help them understand that it is normal to feel nervous when starting something new.
+                            </p>
+                        </div>
+
+                        {/* H3: Visit the School Before the First Day */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">2. Visit the School Before the First Day</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                If possible, take your child to visit the school before classes begin. Show them the classrooms, playground, entrance and other familiar spaces.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Knowing what to expect can reduce uncertainty and make the first day less overwhelming.
+                            </p>
+                        </div>
+
+                        {/* H3: Help Them Make New Friends */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">3. Help Them Make New Friends</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Encourage your child to introduce themselves to classmates and participate in group activities. You can also arrange opportunities to interact with other children outside school, where appropriate.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Do not pressure them to make friends immediately. Give them time to build friendships naturally.
+                            </p>
+                        </div>
+
+                        {/* H3: Establish a Consistent Daily Routine */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">4. Establish a Consistent Daily Routine</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                A predictable routine helps children feel more secure. Set regular timings for waking up, getting ready, completing homework, playing and sleeping.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Preparing school bags, uniforms and other essentials the previous evening can also reduce morning stress.
+                            </p>
+                        </div>
+
+                        {/* H3: Listen to Their Concerns */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">5. Listen to Their Concerns</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Ask your child how their school day went. Instead of asking only about marks or homework, talk about their experiences.
+                            </p>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Questions such as "Did you enjoy any activity today?" or "Was anything difficult for you?" can encourage children to open up.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Listen without immediately correcting or dismissing their concerns. Sometimes, children simply need someone to understand how they feel.
+                            </p>
+                        </div>
+
+                        {/* H3: Encourage Participation in School Activities */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">6. Encourage Participation in School Activities</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                School activities provide opportunities for children to interact with classmates and discover their interests.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Encourage them to participate in sports, art, music, clubs and classroom activities. These experiences can help children become more comfortable and develop a sense of belonging.
+                            </p>
+                        </div>
+
+                        {/* H3: Appreciate Small Improvements */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">7. Appreciate Small Improvements</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Notice and appreciate small steps your child takes towards becoming comfortable at school.
+                            </p>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                It could be talking to a new classmate, answering a question in class or completing a school day without feeling anxious.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Recognising these efforts helps children feel supported and motivates them to keep trying.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* H2: How Long Does It Take for a Child to Adjust to a New School? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">How Long Does It Take for a Child to Adjust to a New School?</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        There is no fixed timeline for every child. Some children feel comfortable within a few days, while others may need several weeks or longer.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        The adjustment period can depend on the child's age, personality, previous school experiences and the amount of support they receive.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Parents should avoid comparing their child's progress with that of other students. Instead, observe how they are responding to the new environment.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        If your child continues to show significant distress, refuses to attend school or experiences ongoing changes in sleep, mood or behaviour, speak with their teacher and consider seeking guidance from a qualified child development professional.
+                    </p>
+                </div>
+
+                {/* H2: What Should Parents Look for in a School Before Admission? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">What Should Parents Look for in a School Before Admission?</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Choosing a school is not only about academic performance or facilities. The way a school welcomes new students and supports them during their early days can also influence their overall experience.
+                    </p>
+                    <p className="mb-6 text-lg leading-relaxed text-white font-medium">
+                        Before making an admission decision, parents can consider the following:
+                    </p>
+                    <div className="space-y-3 mb-6">
+                        {[
+                            {
+                                title: "Supportive teachers",
+                                desc: "Teachers should be approachable and willing to understand each child's learning needs."
+                            },
+                            {
+                                title: "A welcoming classroom",
+                                desc: "Children should feel comfortable asking questions and interacting with classmates."
+                            },
+                            {
+                                title: "Student activities",
+                                desc: "Opportunities for sports, arts and group activities can help children build friendships."
+                            },
+                            {
+                                title: "Clear communication with parents",
+                                desc: "Regular updates help parents understand how their child is settling in."
+                            },
+                            {
+                                title: "A positive learning environment",
+                                desc: "Children should feel encouraged to learn, participate and express themselves."
+                            }
+                        ].map((point, idx) => (
+                            <div key={idx} className="flex items-start gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary font-bold text-lg mt-0.5">✓</span>
+                                <div>
+                                    <strong className="text-brand-secondary text-base block sm:inline mr-2">{point.title}:</strong>
+                                    <span className="text-white text-base leading-relaxed">{point.desc}</span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-lg leading-relaxed text-white">
+                        When comparing the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE Schools in Arcot</Link>, parents should also ask how the school helps newly admitted students become familiar with their teachers, classmates and daily routines.
+                    </p>
+                </div>
+
+                {/* H2: Frequently Asked Questions */}
+                <section className="pt-8 border-t border-white/10 mb-12">
+                    <h2 className="text-2xl font-bold mb-8 text-white">Frequently Asked Questions</h2>
+                    <div className="space-y-6">
+                        {[
+                            {
+                                q: "1. How Can I Make My Child's First Day at a New School Easier?",
+                                a: "Prepare your child in advance, visit the school if possible and talk positively about the new experience. Make sure they have everything ready the previous evening and give them reassurance on the first day."
+                            },
+                            {
+                                q: "2. What If My Child Does Not Make Friends at the New School?",
+                                a: "Give your child time to become comfortable. Encourage participation in group activities and speak with their teacher if they continue to feel isolated. Avoid putting pressure on them to make friends immediately."
+                            },
+                            {
+                                q: "3. Is It Normal for Children to Cry After Changing Schools?",
+                                a: "Yes. Some children may cry or feel anxious because they miss their old school or are unfamiliar with their new surroundings. Patience, reassurance and consistent support can help them adjust."
+                            },
+                            {
+                                q: "4. How Can Teachers Help New Students Feel Comfortable?",
+                                a: "Teachers can introduce new students to their classmates, explain classroom routines, encourage group participation and provide individual attention when needed."
+                            }
+                        ].map((faq, idx) => (
+                            <div key={idx} className="p-6 bg-white/5 rounded-2xl border border-white/10">
+                                <h3 className="font-bold text-brand-secondary mb-3 text-lg">{faq.q}</h3>
+                                <p className="text-white/80 leading-relaxed font-light">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                {/* H2: Conclusion: Helping Your Child Feel at Home in a New School */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-12">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">Conclusion: Helping Your Child Feel at Home in a New School</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Adjusting to a new school is a gradual process. Children need time to become familiar with their surroundings, build friendships and develop confidence in their new environment.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Parents can make this transition easier by listening to their concerns, maintaining a positive routine and appreciating their small improvements. A welcoming school environment and supportive teachers can make an equally important difference.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        When choosing among the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE Schools in Arcot</Link>, look for a school where your child feels welcomed, supported and encouraged to learn. A positive beginning can help them approach their new school journey with greater confidence.
+                    </p>
+                </div>
+
+                {/* Final Thoughts & Call to Action */}
+                <section className="bg-brand-secondary p-10 md:p-12 rounded-[2.5rem] text-brand-primary text-center my-12 shadow-xl">
+                    <h3 className="text-3xl font-bold mb-6">Experience a Supportive Community at The Krisar Academy</h3>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        At The Krisar Academy, our friendly campus, compassionate mentors, and comprehensive orientation ensure every new student settles comfortably and excels academically.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
+                        When looking for the <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">Best CBSE Schools in Arcot</Link>, visit our campus to discover our welcoming learning atmosphere.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
+                            Enquire for Admissions 2026-27
+                        </Link>
+                        <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
+                            <span>📞</span> +91 75400 88387
+                        </a>
+                    </div>
+                </section>
+            </>
+        )
+    },
+    {
+        id: 32,
+        slug: "why-reading-is-important-for-children",
+        title: "Why Is Reading Important for Children? Benefits and Ways to Develop a Reading Habit",
+        metaTitle: "Why Is Reading Important for Children? Benefits and Tips",
+        metaDescription: "Discover the benefits of reading for children and learn how parents can build a daily reading habit through interesting books and simple activities.",
+        date: "November 21, 2026",
+        image: blog32,
+        category: "Education",
+        icon: "BookOpen",
+        description: "Discover the benefits of reading for children and learn how parents can build a daily reading habit through interesting books and simple activities.",
+        content: (
+            <>
+                <p className="mb-6 text-xl font-medium leading-relaxed text-brand-secondary">
+                    A child who reads regularly does more than learn new words. They discover different worlds, understand new ideas, explore unfamiliar subjects and develop the ability to express their thoughts.
+                </p>
+                <p className="mb-6 text-lg leading-relaxed text-white">
+                    However, getting children interested in books is not always easy. With mobile phones, television, video games and other digital distractions competing for their attention, reading can sometimes feel like another task rather than an enjoyable activity.
+                </p>
+                <p className="mb-10 text-lg leading-relaxed text-white">
+                    The key is to help children discover what makes reading interesting. When books become a natural part of their daily lives, children gradually develop a habit that supports their learning both inside and outside the classroom.
+                </p>
+
+                {/* H2: Reading Does More Than Improve Language Skills */}
+                <div className="mb-10">
+                    <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">
+                        Reading Does More Than Improve Language Skills
+                    </h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Reading is often associated with vocabulary, spelling and grammar. While these are important benefits, its influence on a child's learning goes much further.
+                    </p>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        Here is how regular reading contributes to different areas of development:
+                    </p>
+
+                    <div className="space-y-6 mb-8">
+                        {/* H3: Understanding Becomes Easier Across Subjects */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">Understanding Becomes Easier Across Subjects</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Children need reading skills in almost every school subject. Whether they are understanding a mathematics word problem, following science instructions or learning a historical event, they need to interpret written information.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Children who develop good reading comprehension can understand questions more clearly and identify the information needed to answer them.
+                            </p>
+                        </div>
+
+                        {/* H3: Children Learn to Express Their Thoughts Better */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">Children Learn to Express Their Thoughts Better</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Books introduce children to new words, sentence structures and different ways of communicating ideas.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Over time, this exposure can help them explain their thoughts more clearly, participate in conversations and become more comfortable with writing.
+                            </p>
+                        </div>
+
+                        {/* H3: Stories Help Children Understand Different Perspectives */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">Stories Help Children Understand Different Perspectives</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                When children read about different characters and situations, they get opportunities to understand experiences beyond their own.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                They may think about why a character made a particular decision, how another person felt or what could have happened differently. This encourages reflection and a broader understanding of people and situations.
+                            </p>
+                        </div>
+
+                        {/* H3: Reading Builds the Ability to Focus */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">Reading Builds the Ability to Focus</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Following a story or understanding a passage requires attention. Regular reading gives children opportunities to practise staying focused on one activity for a period of time.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                This can also support their ability to concentrate during classroom lessons and independent study.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* H2: Not Every Child Enjoys the Same Kind of Book */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">Not Every Child Enjoys the Same Kind of Book</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        One common mistake parents make is assuming that every child should enjoy storybooks. In reality, reading interests differ from one child to another.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Some children enjoy adventure stories, while others prefer animals, science, sports, mysteries or books about real people.
+                    </p>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        The type of reading material matters because children are more likely to continue reading when the subject interests them. Consider introducing different formats:
+                    </p>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                        {[
+                            { title: "Picture books", desc: "Suitable for younger children who are beginning to connect words with images." },
+                            { title: "Short stories", desc: "Help children follow simple plots and understand characters." },
+                            { title: "Comics", desc: "Combine illustrations and dialogue, making reading more approachable for reluctant readers." },
+                            { title: "Non-fiction books", desc: "Introduce topics such as nature, space, technology and history." },
+                            { title: "Biographies", desc: "Help children learn about real people, their experiences and achievements." },
+                            { title: "Poetry", desc: "Introduces rhythm, creative language and different ways of expressing ideas." }
+                        ].map((item, idx) => (
+                            <div key={idx} className="bg-white/5 p-4 rounded-xl border border-white/10 flex items-start gap-3">
+                                <span className="text-brand-secondary font-bold text-lg mt-0.5">📖</span>
+                                <div>
+                                    <strong className="text-brand-secondary text-base block sm:inline mr-2">{item.title}:</strong>
+                                    <span className="text-white text-base leading-relaxed">{item.desc}</span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+
+                    <p className="text-lg leading-relaxed text-white">
+                        Rather than choosing books based only on their academic level, consider your child's interests and reading comfort.
+                    </p>
+                </div>
+
+                {/* Inner Image: Modern School Library & Book Explorations */}
+                <div className="mb-10 rounded-2xl overflow-hidden border border-white/10 shadow-lg">
+                    <img 
+                        src={blog32Inner} 
+                        alt="Students Engaged in Reading and Study at The Krisar Academy" 
+                        className="w-full h-auto object-cover max-h-[420px]"
+                    />
+                    <div className="p-4 bg-brand-primary/40 text-center text-sm text-white/70 italic border-t border-white/10">
+                        At The Krisar Academy, our expansive library and quiet reading zones cultivate an enduring curiosity and passion for literature.
+                    </div>
+                </div>
+
+                {/* H2: How to Make Reading a Natural Part of Your Child's Day */}
+                <div className="mb-10">
+                    <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">
+                        How to Make Reading a Natural Part of Your Child's Day
+                    </h2>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        A reading habit does not need to begin with long reading sessions or strict targets. Small, consistent changes can make books a familiar part of everyday life.
+                    </p>
+
+                    <div className="space-y-6 mb-8">
+                        {/* H3: Make Reading Part of an Existing Routine */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">Make Reading Part of an Existing Routine</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Choose a time that fits naturally into your family's schedule. Reading before bedtime, after school or during a quiet afternoon can work well.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Starting with 10 minutes a day is enough to introduce the habit. As children become more interested, they may naturally spend more time reading.
+                            </p>
+                        </div>
+
+                        {/* H3: Let Children Choose Their Own Books */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">Let Children Choose Their Own Books</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Give children some freedom to select what they want to read. A book that interests them is often a better starting point than one chosen only because it is educational.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Visit a library or bookstore together and allow them to explore different options.
+                            </p>
+                        </div>
+
+                        {/* H3: Read Together, Not Just Independently */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">Read Together, Not Just Independently</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                For younger children, reading with a parent can make the experience more enjoyable. Take turns reading sentences, discuss pictures and talk about what might happen next.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                As children grow more confident, gradually encourage independent reading while continuing to share books together.
+                            </p>
+                        </div>
+
+                        {/* H3: Talk About the Story Instead of Testing Them */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">Talk About the Story Instead of Testing Them</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                After reading, have a casual conversation about the book. Ask which character they liked or what they found interesting.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Avoid turning every reading session into a comprehension test. The purpose is to develop interest and understanding, not make children feel that they are completing another assignment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* H2: What If Your Child Avoids Reading? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">What If Your Child Avoids Reading?</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Some children may avoid books because they find reading difficult, struggle to understand what they read or simply have not discovered subjects that interest them.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Instead of insisting that they read for longer periods, try to understand the reason behind their reluctance. If a child consistently struggles with reading, understanding written information or recognising words, discuss the difficulty with their teacher. Additional guidance may help identify the areas where they need support.
+                    </p>
+                </div>
+
+                {/* H2: The Role of Schools in Building Young Readers */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">The Role of Schools in Building Young Readers</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Children need opportunities to read beyond their regular textbooks. Schools can help create these opportunities by making books accessible and encouraging students to explore different types of reading material.
+                    </p>
+                    <p className="mb-6 text-lg leading-relaxed text-white font-medium">
+                        A well-supported reading environment can include:
+                    </p>
+                    <div className="space-y-3 mb-6">
+                        {[
+                            {
+                                title: "A student-friendly library",
+                                desc: "A collection of age-appropriate books across different subjects and reading levels."
+                            },
+                            {
+                                title: "Dedicated reading time",
+                                desc: "Regular opportunities for students to read books of their choice."
+                            },
+                            {
+                                title: "Reading and storytelling sessions",
+                                desc: "Activities that help children enjoy stories and develop confidence."
+                            },
+                            {
+                                title: "Book-sharing activities",
+                                desc: "Opportunities for students to recommend books and discuss what they have read."
+                            },
+                            {
+                                title: "Teacher guidance",
+                                desc: "Support for children who need help improving their reading fluency or comprehension."
+                            }
+                        ].map((point, idx) => (
+                            <div key={idx} className="flex items-start gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary font-bold text-lg mt-0.5">✓</span>
+                                <div>
+                                    <strong className="text-brand-secondary text-base block sm:inline mr-2">{point.title}:</strong>
+                                    <span className="text-white text-base leading-relaxed">{point.desc}</span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-lg leading-relaxed text-white">
+                        Parents comparing the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE Schools in Arcot</Link> can consider how schools encourage reading beyond textbooks, including the availability of library resources and classroom reading activities.
+                    </p>
+                </div>
+
+                {/* H2: How Can Parents Know If Their Child Is Making Progress? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">How Can Parents Know If Their Child Is Making Progress?</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Reading progress does not always mean finishing more books. Sometimes, the most meaningful improvements are small changes in how a child approaches reading.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        For example, a child who once needed constant reminders may begin picking up a book independently. Another child may start using unfamiliar words in conversations or explaining the story they have read.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white font-medium">
+                        Look for improvements such as:
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
+                        {[
+                            "Showing interest in new books and subjects.",
+                            "Reading for longer periods without frequent reminders.",
+                            "Understanding and explaining stories more clearly.",
+                            "Recognising and using new vocabulary.",
+                            "Becoming more comfortable reading aloud.",
+                            "Asking questions about what they read."
+                        ].map((item, idx) => (
+                            <div key={idx} className="flex items-center gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary text-lg">✓</span>
+                                <span className="text-white text-base leading-relaxed">{item}</span>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-lg leading-relaxed text-white">
+                        Every child develops at a different pace. Consistent encouragement is more useful than comparing reading speed or the number of books completed with other children.
+                    </p>
+                </div>
+
+                {/* H2: Conclusion: Small Reading Habits Create Lasting Learning Benefits */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-12">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">Conclusion: Small Reading Habits Create Lasting Learning Benefits</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        A love for reading is not developed through pressure or the number of pages a child completes. It grows when children find books interesting, feel comfortable exploring different subjects and have regular opportunities to read.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Parents can make a meaningful difference by reading with their children, respecting their interests and creating a comfortable reading routine at home. Schools can strengthen this habit by providing accessible books and encouraging students to explore beyond their textbooks.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        When evaluating the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE Schools in Arcot</Link>, parents should also consider whether the school creates opportunities for children to develop a genuine interest in reading. A positive reading culture can help children become more confident learners and curious individuals throughout their lives.
+                    </p>
+                </div>
+
+                {/* Final Thoughts & Call to Action */}
+                <section className="bg-brand-secondary p-10 md:p-12 rounded-[2.5rem] text-brand-primary text-center my-12 shadow-xl">
+                    <h3 className="text-3xl font-bold mb-6">Discover a World of Books at The Krisar Academy</h3>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        At The Krisar Academy, our modern library, rich literature collection, and interactive storytelling inspire children to develop strong comprehension and a lifelong passion for reading.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
+                        When evaluating the <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">Best CBSE Schools in Arcot</Link>, visit our campus library to explore our vibrant reading environment.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">

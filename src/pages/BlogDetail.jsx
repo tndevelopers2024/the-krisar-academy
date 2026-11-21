@@ -55,11 +55,11 @@ const BlogDetail = () => {
                     {/* Main Content */}
                     <div className="lg:col-span-2">
                         {/* Featured Image */}
-                        <div className="mb-8 rounded-xl overflow-hidden border border-white/10">
+                        <div className="mb-8 rounded-xl overflow-hidden border border-white/10 max-h-[450px] aspect-[16/9]">
                             <img
                                 src={blog.image}
                                 alt={blog.title}
-                                className="w-full h-auto object-cover"
+                                className="w-full h-full object-cover"
                             />
                         </div>
 
