@@ -45,6 +45,10 @@ import blog31 from '../assets/images/home/academic-excellence/kindergarten.png';
 import blog31Inner from '../assets/images/home/academic-excellence/beyond-academics.png';
 import blog32 from '../assets/images/facilities/modern-library.png';
 import blog32Inner from '../assets/images/gallery/krisar-img-048.jpeg';
+import blog33 from '../assets/images/gallery/krisar-img-184.jpeg';
+import blog33Inner from '../assets/images/home/academic-excellence/academic-approach.png';
+import blog34 from '../assets/images/facilities/ai-robotics-lab.png';
+import blog34Inner from '../assets/images/home/academic-excellence/beyond-academics.png';
 
 // Gallery Images for Blog
 import gallery1 from '../assets/images/gallery/krisar-img-076.jpeg';
@@ -6381,6 +6385,578 @@ export const blogData = [
                     </p>
                     <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
                         When evaluating the <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">Best CBSE Schools in Arcot</Link>, visit our campus library to explore our vibrant reading environment.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
+                            Enquire for Admissions 2026-27
+                        </Link>
+                        <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
+                            <span>📞</span> +91 75400 88387
+                        </a>
+                    </div>
+                </section>
+            </>
+        )
+    },
+    {
+        id: 33,
+        slug: "what-makes-a-cbse-school-the-right-choice-for-your-child",
+        title: "What Makes a CBSE School the Right Choice for Your Child?",
+        metaTitle: "What Makes a CBSE School Right for Your Child? | Best CBSE School in Ranipet",
+        metaDescription: "Looking for the best CBSE school in Ranipet? Discover the benefits of CBSE education and what parents should consider when choosing the right CBSE school for their child.",
+        date: "November 28, 2026",
+        image: blog33,
+        category: "Education",
+        icon: "BookOpen",
+        description: "Looking for the best CBSE school in Ranipet? Discover the benefits of CBSE education and what parents should consider when choosing the right CBSE school for their child.",
+        content: (
+            <>
+                <p className="mb-6 text-xl font-medium leading-relaxed text-brand-secondary">
+                    Choosing the right school is one of the most important decisions parents make for their children. Beyond academic results, a good school should provide an environment where children develop confidence, critical thinking, creativity and essential life skills. This is why many parents consider CBSE education when exploring schooling options.
+                </p>
+                <p className="mb-10 text-lg leading-relaxed text-white">
+                    For families searching for the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE school in Ranipet</Link>, understanding what makes a school suitable for their child's academic and personal development can make the decision easier.
+                </p>
+
+                {/* H2: Why Do Parents Prefer CBSE Education? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">Why Do Parents Prefer CBSE Education?</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        The Central Board of Secondary Education (CBSE) follows a structured curriculum designed to develop conceptual understanding and practical knowledge. Instead of focusing only on memorisation, the curriculum encourages students to understand subjects, apply their learning and develop problem-solving abilities.
+                    </p>
+                    <p className="mb-6 text-lg leading-relaxed text-white font-medium">
+                        Some important advantages of CBSE education include:
+                    </p>
+                    <div className="space-y-3">
+                        {[
+                            {
+                                title: "Structured Curriculum",
+                                desc: "A well-organised academic framework across different grade levels."
+                            },
+                            {
+                                title: "Concept-Based Learning",
+                                desc: "Encourages students to understand concepts rather than simply memorising information."
+                            },
+                            {
+                                title: "National Recognition",
+                                desc: "CBSE qualifications are widely recognised across India."
+                            },
+                            {
+                                title: "Competitive Exam Preparation",
+                                desc: "The curriculum provides a strong foundation for examinations such as JEE and NEET."
+                            },
+                            {
+                                title: "Balanced Development",
+                                desc: "Provides opportunities for academic learning alongside sports, arts and other activities."
+                            }
+                        ].map((point, idx) => (
+                            <div key={idx} className="flex items-start gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary font-bold text-lg mt-0.5">✓</span>
+                                <div>
+                                    <strong className="text-brand-secondary text-base block sm:inline mr-2">{point.title}:</strong>
+                                    <span className="text-white text-base leading-relaxed">{point.desc}</span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                {/* H2: What Should Parents Look for When Choosing a School? */}
+                <div className="mb-10">
+                    <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">
+                        What Should Parents Look for When Choosing a School?
+                    </h2>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        A school's reputation alone should not determine the decision. Parents should consider several factors that influence their child's everyday learning experience.
+                    </p>
+
+                    <div className="space-y-6 mb-8">
+                        {/* H3: 1. Qualified and Supportive Teachers */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">1. Qualified and Supportive Teachers</h3>
+                            <p className="text-lg leading-relaxed text-white">
+                                Teachers play an important role in shaping a child's educational journey. Look for a school where educators encourage questions, explain concepts clearly and understand that every child learns differently.
+                            </p>
+                        </div>
+
+                        {/* H3: 2. A Positive Learning Environment */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">2. A Positive Learning Environment</h3>
+                            <p className="text-lg leading-relaxed text-white">
+                                Children learn better when they feel comfortable, encouraged and supported. A positive school environment helps students participate in classroom activities, express their ideas and build confidence.
+                            </p>
+                        </div>
+
+                        {/* H3: 3. Opportunities Beyond Academics */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">3. Opportunities Beyond Academics</h3>
+                            <p className="text-lg leading-relaxed text-white">
+                                Education should extend beyond textbooks. Sports, creative activities, group projects and extracurricular programmes help children develop communication, teamwork, leadership and problem-solving skills.
+                            </p>
+                        </div>
+
+                        {/* H3: 4. Age-Appropriate Learning Approaches */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">4. Age-Appropriate Learning Approaches</h3>
+                            <p className="text-lg leading-relaxed text-white">
+                                Children at different stages of development have different educational needs. From foundational learning in Pre-KG to subject specialisation in higher grades, teaching approaches should support their changing abilities.
+                            </p>
+                        </div>
+
+                        {/* H3: 5. Focus on Individual Growth */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">5. Focus on Individual Growth</h3>
+                            <p className="text-lg leading-relaxed text-white">
+                                Every child has unique strengths and areas for improvement. Schools that encourage individual participation and provide appropriate academic support can help students progress with confidence.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Inner Image: Classroom Learning Environment */}
+                <div className="mb-10 rounded-2xl overflow-hidden border border-white/10 shadow-lg">
+                    <img
+                        src={blog33Inner}
+                        alt="Students Learning Together in Classroom at The Krisar Academy"
+                        className="w-full h-auto object-cover max-h-[420px]"
+                    />
+                    <div className="p-4 bg-brand-primary/40 text-center text-sm text-white/70 italic border-t border-white/10">
+                        At The Krisar Academy, supportive classrooms and conceptual learning help every student grow with confidence from Pre-KG to Grade 12.
+                    </div>
+                </div>
+
+                {/* H2: How Does CBSE Education Prepare Students for the Future? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">How Does CBSE Education Prepare Students for the Future?</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Modern education requires more than subject knowledge. Children also need the ability to analyse information, communicate effectively, adapt to new situations and work collaboratively.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        CBSE education supports these abilities through its emphasis on conceptual understanding, application-based learning and a broad academic framework.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        These skills can help students become independent learners and prepare them for higher education and future career opportunities.
+                    </p>
+                </div>
+
+                {/* H2: Why Consider Krisar Academy for Your Child's Education? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">Why Consider Krisar Academy for Your Child's Education?</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Located in Arcot, Krisar Academy serves families looking for quality CBSE education in and around Ranipet and Vellore.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        With educational opportunities from Pre-KG to Grade 12, the academy focuses on supporting students throughout their school journey. Parents exploring the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE school in Ranipet</Link> can consider Krisar Academy when evaluating their child's educational options.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Choosing a school is not just about selecting an institution for the next academic year. It is about finding an environment that supports your child's long-term learning, confidence and development.
+                    </p>
+                </div>
+
+                {/* H2: Frequently Asked Questions */}
+                <section className="pt-8 border-t border-white/10 mb-12">
+                    <h2 className="text-2xl font-bold mb-8 text-white">Frequently Asked Questions</h2>
+                    <div className="space-y-6">
+                        {[
+                            {
+                                q: "1. What are the benefits of studying in a CBSE school?",
+                                a: "CBSE education offers a structured curriculum, conceptual learning, national recognition and a strong academic foundation for higher education and competitive examinations."
+                            },
+                            {
+                                q: "2. At what age can children start CBSE education?",
+                                a: "Children can begin their schooling at the foundational level, such as Pre-KG, depending on the school's admission policy and age requirements."
+                            },
+                            {
+                                q: "3. How should parents choose the right CBSE school?",
+                                a: "Parents should evaluate teaching quality, curriculum, learning environment, facilities, extracurricular opportunities and the school's approach to individual student development."
+                            },
+                            {
+                                q: "4. Is CBSE suitable for students preparing for competitive examinations?",
+                                a: "Yes. The CBSE curriculum provides a strong foundation in core subjects, particularly Mathematics and Science, which are important for competitive examinations such as JEE and NEET."
+                            },
+                            {
+                                q: "5. Where can parents find a CBSE school near Ranipet?",
+                                a: "Parents can explore CBSE schools in Ranipet and nearby locations such as Arcot. Krisar Academy in Arcot offers education from Pre-KG to Grade 12."
+                            }
+                        ].map((faq, idx) => (
+                            <div key={idx} className="p-6 bg-white/5 rounded-2xl border border-white/10">
+                                <h3 className="font-bold text-brand-secondary mb-3 text-lg">{faq.q}</h3>
+                                <p className="text-white/80 leading-relaxed font-light">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                {/* H2: Conclusion */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-12">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">Conclusion</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        The right school should help children grow academically, socially and personally. By evaluating teaching methods, learning opportunities and the overall educational environment, parents can make a more informed decision.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        If you are exploring the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE school in Ranipet</Link>, consider Krisar Academy in Arcot as an option for your child's educational journey.
+                    </p>
+                </div>
+
+                {/* Final Thoughts & Call to Action */}
+                <section className="bg-brand-secondary p-10 md:p-12 rounded-[2.5rem] text-brand-primary text-center my-12 shadow-xl">
+                    <p className="text-3xl font-bold mb-6">Begin Your Child's CBSE Journey at The Krisar Academy</p>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        From Pre-KG to Grade 12, The Krisar Academy in Arcot offers conceptual CBSE education, supportive teachers, and enriching co-curricular programmes for holistic growth.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
+                        Searching for the <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">Best CBSE school in Ranipet</Link>? Schedule a campus visit or connect with our admissions team today.
+                    </p>
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                        <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
+                            Enquire for Admissions 2026-27
+                        </Link>
+                        <a href="tel:+917540088387" className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform border border-brand-primary/20 flex items-center gap-2 w-full sm:w-auto justify-center">
+                            <span>📞</span> +91 75400 88387
+                        </a>
+                    </div>
+                </section>
+            </>
+        )
+    },
+    {
+        id: 34,
+        slug: "how-learning-styles-influence-academic-growth",
+        title: "How Does a Child's Learning Style Influence Their Academic Growth?",
+        metaTitle: "Child's Learning Style & Academic Growth | Best CBSE schools in Vellore",
+        metaDescription: "Discover how different learning preferences influence children's academic growth and how the right teaching approach can support better learning outcomes.",
+        date: "November 28, 2026",
+        image: blog34,
+        category: "Education",
+        icon: "BookOpen",
+        description: "Discover how different learning preferences influence children's academic growth and how the right teaching approach can support better learning outcomes.",
+        content: (
+            <>
+                <p className="mb-6 text-xl font-medium leading-relaxed text-brand-secondary">
+                    Have you ever noticed that some children understand a lesson better through pictures, while others learn more effectively by listening, reading or trying things themselves? Every child approaches learning differently, and understanding these differences can help parents and teachers create more effective learning experiences.
+                </p>
+                <p className="mb-6 text-lg leading-relaxed text-white">
+                    A child's learning preferences can influence how they understand information, participate in classroom activities and respond to different teaching methods. Recognising these preferences allows educators to make lessons more engaging while helping children develop confidence and independent learning skills.
+                </p>
+                <p className="mb-10 text-lg leading-relaxed text-white">
+                    For parents exploring the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE schools in Vellore</Link>, understanding how different children learn can offer valuable insights into choosing an educational environment that supports their child's academic development.
+                </p>
+
+                {/* H2: What Are Learning Styles and Why Do They Matter? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">What Are Learning Styles and Why Do They Matter?</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Learning styles refer to the different ways children prefer to receive, process and understand information.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Some children enjoy visual explanations, while others benefit from discussions, reading materials or hands-on activities. However, learning preferences are not fixed categories. Children can benefit from a combination of teaching approaches depending on the subject and learning objective.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white font-medium">
+                        Understanding these preferences can help teachers:
+                    </p>
+                    <ul className="space-y-3 mb-6">
+                        {[
+                            "Present lessons in different and engaging ways.",
+                            "Encourage children to participate actively.",
+                            "Identify concepts that need additional explanation.",
+                            "Create opportunities for independent thinking.",
+                            "Support students who need different approaches to understand a topic."
+                        ].map((point, idx) => (
+                            <li key={idx} className="flex items-start gap-3 bg-white/5 p-3.5 rounded-xl border border-white/10 text-white">
+                                <span className="text-brand-secondary font-bold mt-0.5">✓</span>
+                                <span className="text-base leading-relaxed">{point}</span>
+                            </li>
+                        ))}
+                    </ul>
+                    <p className="text-lg leading-relaxed text-white">
+                        The goal is not to label children according to one learning style but to provide varied learning experiences that help every student progress.
+                    </p>
+                </div>
+
+                {/* H2: What Are the Different Ways Children Learn? */}
+                <div className="mb-10">
+                    <h2 className="text-2xl md:text-3xl font-bold mb-4 text-white">
+                        What Are the Different Ways Children Learn?
+                    </h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Children may respond differently to classroom activities depending on their interests, experiences and the subject being taught.
+                    </p>
+                    <p className="mb-6 text-lg leading-relaxed text-white">
+                        Here are four common ways students engage with learning.
+                    </p>
+
+                    <div className="space-y-6 mb-8">
+                        {/* H3: Visual Learning */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">1. Visual Learning</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Some children understand information more easily when they can see it.
+                            </p>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Pictures, diagrams, charts, illustrations and educational videos can help them understand complex ideas.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                For example, a science lesson about the solar system may become easier to understand through diagrams showing the planets and their positions.
+                            </p>
+                        </div>
+
+                        {/* H3: Auditory Learning */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">2. Auditory Learning</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Some students benefit from listening to explanations, classroom discussions and verbal instructions.
+                            </p>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Storytelling, group conversations, question-and-answer sessions and presentations can make lessons more engaging for these children.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                Listening and discussing ideas also provide opportunities to improve communication and language skills.
+                            </p>
+                        </div>
+
+                        {/* H3: Reading and Writing-Based Learning */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">3. Reading and Writing-Based Learning</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Some children prefer learning through written information.
+                            </p>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Reading textbooks, writing notes, maintaining learning journals and completing written exercises can help them organise information and understand concepts.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                These activities also strengthen vocabulary, comprehension and writing abilities.
+                            </p>
+                        </div>
+
+                        {/* H3: Experiential and Hands-On Learning */}
+                        <div className="p-8 bg-white/5 rounded-3xl border border-white/10">
+                            <h3 className="text-2xl font-bold mb-3 text-brand-secondary">4. Experiential and Hands-On Learning</h3>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Certain concepts become easier to understand when children can explore them through practical experiences.
+                            </p>
+                            <p className="mb-4 text-lg leading-relaxed text-white">
+                                Science experiments, mathematical models, educational projects and classroom activities allow students to connect theoretical knowledge with real-life situations.
+                            </p>
+                            <p className="text-lg leading-relaxed text-white">
+                                For example, using everyday objects to understand mathematical measurements can make abstract concepts easier to grasp.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Inner Image: Experiential & Hands-On Student Engagement */}
+                <div className="mb-10 rounded-2xl overflow-hidden border border-white/10 shadow-lg">
+                    <img
+                        src={blog34Inner}
+                        alt="Students Developing Practical Skills Through Activity-Based Learning at The Krisar Academy"
+                        className="w-full h-auto object-cover max-h-[420px]"
+                    />
+                    <div className="p-4 bg-brand-primary/40 text-center text-sm text-white/70 italic border-t border-white/10">
+                        At The Krisar Academy, varied visual, interactive, and experiential learning activities empower every student to thrive.
+                    </div>
+                </div>
+
+                {/* H2: How Can Teachers Support Different Learning Preferences? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">How Can Teachers Support Different Learning Preferences?</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        An effective classroom should provide opportunities for students to learn through different methods rather than depending on a single teaching approach.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Teachers can create more engaging learning experiences by combining explanations, visual materials, discussions, reading exercises and practical activities.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        For instance, when teaching a science concept, a teacher might first explain the topic, show a relevant diagram, encourage students to discuss their observations and then introduce a simple experiment.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        This approach gives students multiple opportunities to understand the same concept.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        It also encourages classroom participation, curiosity and collaboration.
+                    </p>
+                </div>
+
+                {/* H2: How Can Parents Identify Their Child's Learning Preferences? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">How Can Parents Identify Their Child's Learning Preferences?</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Parents can observe how their children approach everyday learning activities to understand what helps them learn comfortably.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white font-medium">
+                        A few things to notice include:
+                    </p>
+                    <ul className="space-y-3 mb-6">
+                        {[
+                            "Does your child enjoy looking at pictures and illustrations while studying?",
+                            "Do they remember information better after listening to explanations?",
+                            "Do they prefer reading and writing notes?",
+                            "Are they more interested when learning involves experiments or activities?",
+                            "Do they enjoy explaining what they have learned to others?"
+                        ].map((point, idx) => (
+                            <li key={idx} className="flex items-start gap-3 bg-white/5 p-3.5 rounded-xl border border-white/10 text-white">
+                                <span className="text-brand-secondary font-bold mt-0.5">•</span>
+                                <span className="text-base leading-relaxed">{point}</span>
+                            </li>
+                        ))}
+                    </ul>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        These observations can help parents understand their child's interests and discuss suitable learning approaches with teachers.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        It is equally important to allow children to explore different methods instead of limiting them to one particular style.
+                    </p>
+                </div>
+
+                {/* H2: Does a Child's Learning Environment Affect Academic Growth? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">Does a Child's Learning Environment Affect Academic Growth?</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Yes. A supportive learning environment can influence how confidently children participate, ask questions and approach new subjects.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Children benefit from classrooms where they feel comfortable expressing their ideas, making mistakes and seeking help when they do not understand something.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white font-medium">
+                        A positive educational environment should encourage:
+                    </p>
+                    <ul className="space-y-3 mb-6">
+                        {[
+                            "Active classroom participation.",
+                            "Healthy interaction between students and teachers.",
+                            "Opportunities to explore different subjects.",
+                            "Constructive feedback and academic guidance.",
+                            "A balance between individual learning and group activities."
+                        ].map((point, idx) => (
+                            <li key={idx} className="flex items-start gap-3 bg-white/5 p-3.5 rounded-xl border border-white/10 text-white">
+                                <span className="text-brand-secondary font-bold mt-0.5">✓</span>
+                                <span className="text-base leading-relaxed">{point}</span>
+                            </li>
+                        ))}
+                    </ul>
+                    <p className="text-lg leading-relaxed text-white">
+                        When children receive the right guidance and encouragement, they can gradually develop stronger learning habits and greater confidence in their abilities.
+                    </p>
+                </div>
+
+                {/* H2: What Should Parents Look for When Choosing a CBSE School? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">What Should Parents Look for When Choosing a CBSE School?</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Selecting a school involves more than comparing academic results or infrastructure. Parents should also understand how the institution approaches teaching and supports students with different educational needs.
+                    </p>
+                    <p className="mb-6 text-lg leading-relaxed text-white font-medium">
+                        When exploring the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE schools in Vellore</Link>, consider the following factors:
+                    </p>
+                    <div className="space-y-3 mb-6">
+                        {[
+                            {
+                                title: "Teaching Approach",
+                                desc: "Look for classrooms that encourage understanding, questioning and active participation."
+                            },
+                            {
+                                title: "Teacher Support",
+                                desc: "Educators should be approachable and willing to explain concepts in different ways when students need additional support."
+                            },
+                            {
+                                title: "Academic Foundation",
+                                desc: "A structured curriculum should help children develop subject knowledge and essential academic skills."
+                            },
+                            {
+                                title: "Learning Opportunities",
+                                desc: "Classroom discussions, projects, activities and practical experiences can make education more engaging."
+                            },
+                            {
+                                title: "Overall Development",
+                                desc: "Schools should provide opportunities for children to develop communication, creativity, confidence and independent thinking alongside academic knowledge."
+                            }
+                        ].map((point, idx) => (
+                            <div key={idx} className="flex items-start gap-3 bg-white/5 p-4 rounded-xl border border-white/10">
+                                <span className="text-brand-secondary font-bold text-lg mt-0.5">✓</span>
+                                <div>
+                                    <strong className="text-brand-secondary text-base block sm:inline mr-2">{point.title}:</strong>
+                                    <span className="text-white text-base leading-relaxed">{point.desc}</span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                    <p className="text-lg leading-relaxed text-white">
+                        These factors can help parents identify an educational environment that supports their child's long-term growth.
+                    </p>
+                </div>
+
+                {/* H2: How Does Krisar Academy Support Students' Learning Journey? */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-10">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">How Does Krisar Academy Support Students' Learning Journey?</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Every child deserves an educational environment that encourages curiosity, builds confidence and supports academic progress.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Located in Arcot, Krisar Academy offers CBSE education from Pre-KG to Grade 12, supporting students through different stages of their educational journey.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        For parents in Arcot, Ranipet and nearby areas, understanding a school's curriculum, teaching approach and learning environment can help them make an informed admission decision.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        Krisar Academy provides an option for families looking for quality school education in and around the region.
+                    </p>
+                </div>
+
+                {/* H2: Frequently Asked Questions */}
+                <section className="pt-8 border-t border-white/10 mb-12">
+                    <h2 className="text-2xl font-bold mb-8 text-white">Frequently Asked Questions</h2>
+                    <div className="space-y-6">
+                        {[
+                            {
+                                q: "1. Does every child have a different learning style?",
+                                a: "Children may have different learning preferences, interests and strengths. However, these preferences are not fixed. Most children benefit from a combination of visual, auditory, reading-based and practical learning experiences."
+                            },
+                            {
+                                q: "2. How can learning preferences affect academic performance?",
+                                a: "When teaching methods are engaging and suitable for the subject, children may find it easier to understand concepts, participate in lessons and develop confidence in their learning abilities."
+                            },
+                            {
+                                q: "3. Can a child's learning preferences change over time?",
+                                a: "Yes. Children's interests, abilities and learning preferences can develop as they grow, gain experience and encounter different subjects and teaching approaches."
+                            },
+                            {
+                                q: "4. How can parents help children improve their learning habits?",
+                                a: "Parents can encourage regular reading, provide a comfortable study environment, introduce educational activities, support curiosity and communicate with teachers about their child's progress."
+                            },
+                            {
+                                q: "5. How should parents choose the right CBSE school for their child?",
+                                a: "Parents should evaluate the curriculum, teaching approach, teacher support, classroom environment, academic opportunities and extracurricular activities before making a decision."
+                            }
+                        ].map((faq, idx) => (
+                            <div key={idx} className="p-6 bg-white/5 rounded-2xl border border-white/10">
+                                <h3 className="font-bold text-brand-secondary mb-3 text-lg">{faq.q}</h3>
+                                <p className="text-white/80 leading-relaxed font-light">{faq.a}</p>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+
+                {/* H2: Every Child Deserves the Right Learning Opportunity */}
+                <div className="p-8 bg-white/5 rounded-3xl border border-white/10 mb-12">
+                    <h2 className="text-2xl font-bold mb-4 text-brand-secondary">Every Child Deserves the Right Learning Opportunity</h2>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Academic growth is not the same for every child. Some students understand concepts quickly through visual explanations, while others benefit from discussions, written exercises or practical experiences.
+                    </p>
+                    <p className="mb-4 text-lg leading-relaxed text-white">
+                        Recognising these differences and providing varied learning opportunities can help children become confident, curious and independent learners.
+                    </p>
+                    <p className="text-lg leading-relaxed text-white">
+                        If you are exploring the <Link to="/" className="text-brand-secondary underline decoration-2 underline-offset-4 hover:text-white transition-colors font-semibold">Best CBSE schools in Vellore</Link>, consider looking beyond academic results and understanding how a school supports different learning needs. Krisar Academy in Arcot is an educational option for parents looking to support their child's learning journey from Pre-KG to Grade 12.
+                    </p>
+                </div>
+
+                {/* Final Thoughts & Call to Action */}
+                <section className="bg-brand-secondary p-10 md:p-12 rounded-[2.5rem] text-brand-primary text-center my-12 shadow-xl">
+                    <p className="text-3xl font-bold mb-6">Empower Your Child's Unique Way of Learning</p>
+                    <p className="text-lg font-medium leading-relaxed mb-4 max-w-3xl mx-auto">
+                        At The Krisar Academy in Arcot, our blended classroom teaching combines visual aids, interactive discussions, practical experiments, and personalised mentor guidance from Pre-KG to Grade 12.
+                    </p>
+                    <p className="text-lg font-medium leading-relaxed mb-8 max-w-3xl mx-auto">
+                        When searching for the <Link to="/" className="underline font-bold text-brand-primary hover:text-black transition-colors">Best CBSE schools in Vellore</Link>, visit our campus to explore how we nurture every student's academic strengths.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <Link to="/admissions" className="bg-brand-primary text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform flex items-center gap-2 w-full sm:w-auto justify-center">
